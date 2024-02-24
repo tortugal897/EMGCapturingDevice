@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Feb 16 20:29:56 2024
+# Process ID: 18964
+# Current directory: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/TFM_ZYNQ_4.runs/impl_1
+# Command line: vivado.exe -log TFM_ZYNQ_4_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TFM_ZYNQ_4_wrapper.tcl -notrace
+# Log file: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/TFM_ZYNQ_4.runs/impl_1/TFM_ZYNQ_4_wrapper.vdi
+# Journal file: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/TFM_ZYNQ_4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source TFM_ZYNQ_4_wrapper.tcl -notrace

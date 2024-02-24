@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER test_dma_best
+	OPTION supported_peripherals = (test_dma_best);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = test_dma_best;
+END DRIVER

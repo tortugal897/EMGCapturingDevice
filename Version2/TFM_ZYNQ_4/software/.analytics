@@ -1,0 +1,32 @@
+timestamp=[2023-05-26 17:15:41], mode=WORKBENCH_START, duration=0:00:07.642, duration_ms=7642, data={}
+timestamp=[2023-05-26 17:15:42], mode=WORKBENCH_UI_INIT, duration=0:00:01.419, duration_ms=1419, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-05-26 17:17:05], mode=APP_CREATION, duration=0:00:40.154, duration_ms=40154, data={name=software_TFM, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=TFM_ZYNQ_4_wrapper, application_type=application}
+timestamp=[2023-05-26 17:18:52], mode=PLATFORM_GENERATION, duration=0:01:03.202, duration_ms=63202, data={name=TFM_ZYNQ_4_wrapper}
+timestamp=[2023-05-30 19:16:12], mode=WORKBENCH_START, duration=0:00:21.528, duration_ms=21528, data={}
+timestamp=[2023-05-30 19:16:15], mode=WORKBENCH_UI_INIT, duration=0:00:03.117, duration_ms=3117, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}
+timestamp=[2023-05-30 19:37:51], mode=PLATFORM_GENERATION, duration=0:00:05.159, duration_ms=5159, data={name=TFM_ZYNQ_4_wrapper}
+timestamp=[2023-05-30 20:11:46], mode=PLATFORM_GENERATION, duration=0:00:02.990, duration_ms=2990, data={name=TFM_ZYNQ_4_wrapper}
+timestamp=[2023-06-01 20:08:45], mode=WORKBENCH_START, duration=0:00:29.601, duration_ms=29601, data={}
+timestamp=[2023-06-01 20:08:48], mode=WORKBENCH_UI_INIT, duration=0:00:02.949, duration_ms=2949, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}
+timestamp=[2023-06-01 22:25:10], mode=WORKBENCH_START, duration=0:00:21.141, duration_ms=21141, data={}
+timestamp=[2023-06-01 22:25:12], mode=WORKBENCH_UI_INIT, duration=0:00:02.064, duration_ms=2064, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}
+timestamp=[2023-06-02 17:31:02], mode=WORKBENCH_START, duration=0:00:17.775, duration_ms=17775, data={}
+timestamp=[2023-06-02 17:31:04], mode=WORKBENCH_UI_INIT, duration=0:00:02.564, duration_ms=2564, data={editors_count=10, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}
+timestamp=[2023-06-05 20:13:27], mode=WORKBENCH_START, duration=0:00:21.945, duration_ms=21945, data={}
+timestamp=[2023-06-05 20:13:31], mode=WORKBENCH_UI_INIT, duration=0:00:04.194, duration_ms=4194, data={editors_count=10, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}
+timestamp=[2023-06-06 19:31:41], mode=WORKBENCH_START, duration=0:00:22.015, duration_ms=22015, data={}
+timestamp=[2023-06-06 19:31:43], mode=WORKBENCH_UI_INIT, duration=0:00:02.425, duration_ms=2425, data={editors_count=10, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}
+timestamp=[2023-06-07 20:31:51], mode=WORKBENCH_START, duration=0:00:27.595, duration_ms=27595, data={}
+timestamp=[2023-06-07 20:31:54], mode=WORKBENCH_UI_INIT, duration=0:00:02.726, duration_ms=2726, data={editors_count=9, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}
+timestamp=[2023-06-07 21:03:34], mode=WORKBENCH_START, duration=0:00:17.674, duration_ms=17674, data={}
+timestamp=[2023-06-07 21:03:37], mode=WORKBENCH_UI_INIT, duration=0:00:03.447, duration_ms=3447, data={editors_count=9, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}
+timestamp=[2023-06-08 18:28:39], mode=WORKBENCH_START, duration=0:00:25.232, duration_ms=25232, data={}
+timestamp=[2023-06-08 18:28:42], mode=WORKBENCH_UI_INIT, duration=0:00:02.968, duration_ms=2968, data={editors_count=9, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}
+timestamp=[2023-06-16 19:38:08], mode=WORKBENCH_START, duration=0:00:22.620, duration_ms=22620, data={}
+timestamp=[2023-06-16 19:38:11], mode=WORKBENCH_UI_INIT, duration=0:00:03.009, duration_ms=3009, data={editors_count=10, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}
+timestamp=[2023-06-21 21:08:02], mode=WORKBENCH_START, duration=0:00:19.563, duration_ms=19563, data={}
+timestamp=[2023-06-21 21:08:04], mode=WORKBENCH_UI_INIT, duration=0:00:01.976, duration_ms=1976, data={editors_count=10, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}
+timestamp=[2023-06-22 20:45:35], mode=WORKBENCH_START, duration=0:00:27.501, duration_ms=27501, data={}
+timestamp=[2023-06-22 20:45:37], mode=WORKBENCH_UI_INIT, duration=0:00:02.429, duration_ms=2429, data={editors_count=10, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}
+timestamp=[2023-06-30 22:04:14], mode=WORKBENCH_START, duration=0:00:22.156, duration_ms=22156, data={}
+timestamp=[2023-06-30 22:04:17], mode=WORKBENCH_UI_INIT, duration=0:00:02.472, duration_ms=2472, data={editors_count=10, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,TFM_ZYNQ_4_wrapper,software_TFM,software_TFM_system}

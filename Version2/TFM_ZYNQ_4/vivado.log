@@ -1,0 +1,425 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue May  9 23:21:20 2023
+# Process ID: 14232
+# Current directory: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10224 C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_4\TFM_ZYNQ_4.xpr
+# Log file: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/vivado.log
+# Journal file: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:28 . Memory (MB): peak = 1185.996 ; gain = 557.996
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP2_wr_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_rd_socket' specified in the portmap, is not found on the block! 
+WARNING: [BD 41-176] The physical port 'S_AXI_GP3_wr_socket' specified in the portmap, is not found on the block! 
+Adding component instance block -- urjc.es:user:ads_spi_mux:1.0 - ads_spi_mux_0
+Adding component instance block -- urjc.es:user:not_irq:1.0 - not_irq_0
+Adding component instance block -- xilinx.com:ip:axi_quad_spi:3.2 - axi_quad_spi_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:ila:6.2 - ila_0
+INFO: [xilinx.com:ip:ila:6.2-6] /ila_0: Xilinx recommends using the System ILA IP in IP Integrator. The System ILA IP is functionally equivalent to an ILA and offers additional benefits in debugging interfaces both within IP Integrator and the Hardware Manager. Consult the Programming and Debug User Guide UG908 for further details.
+Adding component instance block -- urjc.es:user:ads_spi_ctrl_top:2.0 - ads_spi_ctrl_top_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /ads_spi_mux_0/a_dry(undef) and /not_irq_0/in_irq(intr)
+Successfully read diagram <TFM_ZYNQ_4> from BD file <C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd>
+open_bd_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1950.176 ; gain = 0.000
+ipx::edit_ip_in_project -upgrade true -name ads_spi_ctrl_top_v2_0_project -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.tmp/ads_spi_ctrl_top_v2_0_project c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/victo/desktop/tfm/zynq/tfm_zynq_4/tfm_zynq_4.tmp/ads_spi_ctrl_top_v2_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+create_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1950.176 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:34 ; elapsed = 00:00:27 . Memory (MB): peak = 1950.176 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] fifo64x32 has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo-z7-10:part0:1.1'
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd'.
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (Simulation)': File 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+set_property core_revision 37 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project
+update_ip_catalog -rebuild -repo_path c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv urjc.es:user:ads_spi_ctrl_top:2.0 [get_ips  TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd'
+INFO: [IP_Flow 19-3422] Upgraded TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (ads_spi_ctrl_top_v2.0 2.0) from revision 36 to revision 37
+Wrote  : <C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_4\TFM_ZYNQ_4.srcs\sources_1\bd\TFM_ZYNQ_4\TFM_ZYNQ_4.bd> 
+Wrote  : <C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ui/bd_6ec1089b.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd]
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+Wrote  : <C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_4\TFM_ZYNQ_4.srcs\sources_1\bd\TFM_ZYNQ_4\TFM_ZYNQ_4.bd> 
+VHDL Output written to : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/synth/TFM_ZYNQ_4.vhd
+VHDL Output written to : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/sim/TFM_ZYNQ_4.vhd
+VHDL Output written to : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/hdl/TFM_ZYNQ_4_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ads_spi_ctrl_top_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ads_spi_mux_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block not_irq_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_auto_pc_0/TFM_ZYNQ_4_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_auto_pc_1/TFM_ZYNQ_4_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+Exporting to file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/hw_handoff/TFM_ZYNQ_4.hwh
+Generated Block Design Tcl file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/hw_handoff/TFM_ZYNQ_4_bd.tcl
+Generated Hardware Definition File C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/synth/TFM_ZYNQ_4.hwdef
+generate_target: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2536.215 ; gain = 127.070
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] }
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP TFM_ZYNQ_4_auto_pc_0, cache-ID = fe03d9064895f1fb; cache size = 27.186 MB.
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_auto_pc_1] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP TFM_ZYNQ_4_auto_pc_1, cache-ID = 5576acc1fde51589; cache size = 27.186 MB.
+export_ip_user_files -of_objects [get_files C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd]
+launch_runs -jobs 2 TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1
+[Tue May  9 23:27:38 2023] Launched TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1...
+Run output will be captured here: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.runs/TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd] -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files -ipstatic_source_dir C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/modelsim} {questa=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/questa} {riviera=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/riviera} {activehdl=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Tue May  9 23:28:26 2023] Launched TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1, synth_1...
+Run output will be captured here:
+TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.runs/TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1/runme.log
+synth_1: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.runs/synth_1/runme.log
+[Tue May  9 23:28:26 2023] Launched impl_1...
+Run output will be captured here: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.runs/impl_1/runme.log
+write_hw_platform -fixed -force  -include_bit -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4_wrapper.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4_wrapper.xsa ...
+INFO: [Hsi 55-2053] elapsed time for repository (C:/Xilinx/Vivado/2019.2/data\embeddedsw) loading 1 seconds
+WARNING: [Project 1-645] Board images not set in Hardware Platform.
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4_wrapper.xsa
+write_hw_platform: Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 2536.215 ; gain = 0.000
+ipx::edit_ip_in_project -upgrade true -name ads_spi_ctrl_top_v2_0_project -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.tmp/ads_spi_ctrl_top_v2_0_project c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/victo/desktop/tfm/zynq/tfm_zynq_4/tfm_zynq_4.tmp/ads_spi_ctrl_top_v2_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2536.215 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 2536.215 ; gain = 0.000
+update_compile_order -fileset sources_1
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+ERROR: [Vivado 12-3630] The destination file 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' already exists, please use -force if you want to overwrite!
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+ERROR: [Vivado 12-3630] The destination file 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' already exists, please use -force if you want to overwrite!
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+ERROR: [Vivado 12-3630] The destination file 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' already exists, please use -force if you want to overwrite!
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+ERROR: [Vivado 12-3630] The destination file 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' already exists, please use -force if you want to overwrite!
+- force
+invalid command name "-"
+close_project
+ipx::edit_ip_in_project -upgrade true -name ads_spi_ctrl_top_v2_0_project -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.tmp/ads_spi_ctrl_top_v2_0_project c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/victo/desktop/tfm/zynq/tfm_zynq_4/tfm_zynq_4.tmp/ads_spi_ctrl_top_v2_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2536.215 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 2536.215 ; gain = 0.000
+update_compile_order -fileset sources_1
+add_files -norecurse -scan_for_includes -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+ERROR: [Common 17-69] Command failed: '-scan_for_includes' and '-copy_to' are mutually exclusive and cannot be paired together.
+
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+ERROR: [Vivado 12-3630] The destination file 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' already exists, please use -force if you want to overwrite!
+add_files -norecurse -scan_for_includes C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] fifo64x32 has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo-z7-10:part0:1.1'
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml' ignored by IP packager.
+set_property core_revision 38 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+CRITICAL WARNING: [IP_Flow 19-5330] Component Referenced File 'c:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' is outside of Component Directory: cannot archive the component.
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project
+update_ip_catalog -rebuild -repo_path c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv urjc.es:user:ads_spi_ctrl_top:2.0 [get_ips  TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd'
+INFO: [IP_Flow 19-3422] Upgraded TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (ads_spi_ctrl_top_v2.0 2.0) from revision 37 to revision 38
+Wrote  : <C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_4\TFM_ZYNQ_4.srcs\sources_1\bd\TFM_ZYNQ_4\TFM_ZYNQ_4.bd> 
+Wrote  : <C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ui/bd_6ec1089b.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd]
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+Wrote  : <C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_4\TFM_ZYNQ_4.srcs\sources_1\bd\TFM_ZYNQ_4\TFM_ZYNQ_4.bd> 
+VHDL Output written to : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/synth/TFM_ZYNQ_4.vhd
+VHDL Output written to : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/sim/TFM_ZYNQ_4.vhd
+VHDL Output written to : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/hdl/TFM_ZYNQ_4_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ads_spi_ctrl_top_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ads_spi_mux_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block not_irq_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_auto_pc_0/TFM_ZYNQ_4_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_auto_pc_1/TFM_ZYNQ_4_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+Exporting to file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/hw_handoff/TFM_ZYNQ_4.hwh
+Generated Block Design Tcl file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/hw_handoff/TFM_ZYNQ_4_bd.tcl
+Generated Hardware Definition File C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/synth/TFM_ZYNQ_4.hwdef
+generate_target: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2765.148 ; gain = 0.215
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] }
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP TFM_ZYNQ_4_auto_pc_0, cache-ID = fe03d9064895f1fb; cache size = 27.779 MB.
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_auto_pc_1] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP TFM_ZYNQ_4_auto_pc_1, cache-ID = 5576acc1fde51589; cache size = 27.779 MB.
+export_ip_user_files -of_objects [get_files C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd]
+launch_runs -jobs 2 TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1
+[Tue May  9 23:55:19 2023] Launched TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1...
+Run output will be captured here: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.runs/TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd] -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files -ipstatic_source_dir C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/modelsim} {questa=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/questa} {riviera=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/riviera} {activehdl=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+ipx::edit_ip_in_project -upgrade true -name ads_spi_ctrl_top_v2_0_project -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.tmp/ads_spi_ctrl_top_v2_0_project c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/victo/desktop/tfm/zynq/tfm_zynq_4/tfm_zynq_4.tmp/ads_spi_ctrl_top_v2_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2824.340 ; gain = 59.191
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2824.340 ; gain = 59.191
+update_compile_order -fileset sources_1
+set_property core_revision 39 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+CRITICAL WARNING: [IP_Flow 19-5330] Component Referenced File 'c:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' is outside of Component Directory: cannot archive the component.
+export_ip_user_files -of_objects  [get_files c:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd] -no_script -reset -force -quiet
+remove_files  c:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -scan_for_includes C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] fifo64x32 has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo-z7-10:part0:1.1'
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml' ignored by IP packager.
+set_property core_revision 40 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+CRITICAL WARNING: [IP_Flow 19-5330] Component Referenced File 'c:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' is outside of Component Directory: cannot archive the component.
+export_ip_user_files -of_objects  [get_files C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -scan_for_includes C:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] fifo64x32 has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo-z7-10:part0:1.1'
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (Simulation)': File 'c:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+set_property core_revision 41 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+CRITICAL WARNING: [IP_Flow 19-5330] Component Referenced File 'c:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' is outside of Component Directory: cannot archive the component.
+set_property core_revision 42 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+CRITICAL WARNING: [IP_Flow 19-5330] Component Referenced File 'c:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' is outside of Component Directory: cannot archive the component.
+export_ip_user_files -of_objects  [get_files C:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+ERROR: [Vivado 12-3630] The destination file 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' already exists, please use -force if you want to overwrite!
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+ERROR: [Vivado 12-3630] The destination file 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' already exists, please use -force if you want to overwrite!
+add_files -norecurse -scan_for_includes C:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+update_compile_order -fileset sources_1
+set_property core_revision 43 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+CRITICAL WARNING: [IP_Flow 19-5330] Component Referenced File 'c:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' is outside of Component Directory: cannot archive the component.
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-4963] fifo64x32 has board value specified. The packaged IP will be restricted to usage with board 'digilentinc.com:zybo-z7-10:part0:1.1'
+WARNING: [IP_Flow 19-5226] Project source file 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml' ignored by IP packager.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlsynthesis (VHDL Synthesis)': File 'c:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+WARNING: [IP_Flow 19-5109] File Group 'xilinx_vhdlbehavioralsimulation (Simulation)': File 'c:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd' does not exist in the project sources. It has been removed from the packaged IP. If still required, please add this file to the project, merge sources and re-package.
+set_property core_revision 44 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project
+update_ip_catalog -rebuild -repo_path c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv urjc.es:user:ads_spi_ctrl_top:2.0 [get_ips  TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd'
+INFO: [IP_Flow 19-3422] Upgraded TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (ads_spi_ctrl_top_v2.0 2.0) from revision 38 to revision 44
+Wrote  : <C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_4\TFM_ZYNQ_4.srcs\sources_1\bd\TFM_ZYNQ_4\TFM_ZYNQ_4.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd]
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+INFO: [xilinx.com:ip:axi_quad_spi:3.2-1] /axi_quad_spi_0 
+                  ##############################################################################
+                  INFO: AXI Quad SPI core's AXI Lite Clock and EXT SPI CLK are are asynchronous.
+                  ##############################################################################
+Wrote  : <C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_4\TFM_ZYNQ_4.srcs\sources_1\bd\TFM_ZYNQ_4\TFM_ZYNQ_4.bd> 
+VHDL Output written to : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/synth/TFM_ZYNQ_4.vhd
+VHDL Output written to : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/sim/TFM_ZYNQ_4.vhd
+VHDL Output written to : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/hdl/TFM_ZYNQ_4_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ads_spi_ctrl_top_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ads_spi_mux_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block not_irq_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_quad_spi_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ila_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_auto_pc_0/TFM_ZYNQ_4_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_auto_pc_1/TFM_ZYNQ_4_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_pc .
+Exporting to file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/hw_handoff/TFM_ZYNQ_4.hwh
+Generated Block Design Tcl file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/hw_handoff/TFM_ZYNQ_4_bd.tcl
+Generated Hardware Definition File C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/synth/TFM_ZYNQ_4.hwdef
+generate_target: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2915.391 ; gain = 0.426
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] }
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP TFM_ZYNQ_4_auto_pc_0, cache-ID = fe03d9064895f1fb; cache size = 28.366 MB.
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_auto_pc_1] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP TFM_ZYNQ_4_auto_pc_1, cache-ID = 5576acc1fde51589; cache size = 28.366 MB.
+export_ip_user_files -of_objects [get_files C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd]
+launch_runs -jobs 2 TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1
+[Wed May 10 00:04:05 2023] Launched TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1...
+Run output will be captured here: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.runs/TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd] -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files -ipstatic_source_dir C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/modelsim} {questa=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/questa} {riviera=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/riviera} {activehdl=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed May 10 00:06:22 2023] Launched synth_1...
+Run output will be captured here: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.runs/synth_1/runme.log
+[Wed May 10 00:06:22 2023] Launched impl_1...
+Run output will be captured here: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.runs/impl_1/runme.log
+write_hw_platform -fixed -force  -include_bit -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4_wrapper.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4_wrapper.xsa ...
+WARNING: [Project 1-645] Board images not set in Hardware Platform.
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4_wrapper.xsa
+write_hw_platform: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2915.391 ; gain = 0.000
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed May 10 00:19:36 2023] Launched impl_1...
+Run output will be captured here: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.runs/impl_1/runme.log
+write_hw_platform -fixed -force  -include_bit -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4_wrapper.xsa
+INFO: [Vivado 12-4895] Creating Hardware Platform: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4_wrapper.xsa ...
+WARNING: [Project 1-645] Board images not set in Hardware Platform.
+INFO: [Vivado 12-4896] Successfully created Hardware Platform: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4_wrapper.xsa
+write_hw_platform: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2915.391 ; gain = 0.000
+ipx::edit_ip_in_project -upgrade true -name ads_spi_ctrl_top_v2_0_project -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.tmp/ads_spi_ctrl_top_v2_0_project c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/victo/desktop/tfm/zynq/tfm_zynq_4/tfm_zynq_4.tmp/ads_spi_ctrl_top_v2_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2915.391 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2915.391 ; gain = 0.000
+update_compile_order -fileset sources_1
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 10 00:33:10 2023...

@@ -1,0 +1,23 @@
+vhdl fifo_generator_v13_2_5  \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_ads_spi_ctrl_top_0_0/src/fifo64x32_1/hdl/fifo_generator_v13_2_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ipshared/a798/src/ads_rdatac_top.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ipshared/a798/src/ads_spi_ctrl.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ipshared/a798/hdl/ads_spi_ctrl_top_v2_0_S00_AXI.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ipshared/a798/src/clk_div_4MHz.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ipshared/a798/hdl/ads_spi_ctrl_top_v2_0.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_ads_spi_ctrl_top_0_0/sim/TFM_ZYNQ_4_ads_spi_ctrl_top_0_0.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ipshared/e0c3/hdl/ads_spi_mux_v1_0_S00_AXI.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ipshared/e0c3/src/mux_spi.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ipshared/e0c3/hdl/ads_spi_mux_v1_0.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_ads_spi_mux_0_0/sim/TFM_ZYNQ_4_ads_spi_mux_0_0.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ipshared/28a3/hdl/not_irq_v1_0.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_not_irq_0_0/sim/TFM_ZYNQ_4_not_irq_0_0.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_axi_quad_spi_0_0/sim/TFM_ZYNQ_4_axi_quad_spi_0_0.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_rst_ps7_0_50M_0/sim/TFM_ZYNQ_4_rst_ps7_0_50M_0.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_axi_dma_0_0/sim/TFM_ZYNQ_4_axi_dma_0_0.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/ip/TFM_ZYNQ_4_ila_0_0/sim/TFM_ZYNQ_4_ila_0_0.vhd" \
+"../../../../TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/sim/TFM_ZYNQ_4.vhd" \
+
+nosort

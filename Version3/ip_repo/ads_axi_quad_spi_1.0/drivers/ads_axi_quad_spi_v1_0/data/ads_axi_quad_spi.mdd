@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER ads_axi_quad_spi
+	OPTION supported_peripherals = (ads_axi_quad_spi);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = ads_axi_quad_spi;
+END DRIVER

@@ -1,0 +1,33 @@
+19:02:33 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software\temp_xsdb_launch_script.tcl
+19:02:39 INFO  : XSCT server has started successfully.
+19:02:40 INFO  : plnx-install-location is set to ''
+19:02:40 INFO  : Successfully done setting XSCT server connection channel  
+19:02:40 INFO  : Successfully done query RDI_DATADIR 
+19:02:40 INFO  : Successfully done setting workspace for the tool. 
+19:02:42 INFO  : Registering command handlers for Vitis TCF services
+19:06:38 INFO  : Checking for BSP changes to sync application flags for project 'TFM_software_ethernet'...
+19:08:01 INFO  : Checking for BSP changes to sync application flags for project 'TFM_software_ethernet'...
+19:08:20 INFO  : Successfully done sdx_reload_mss "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+19:08:20 INFO  : Successfully done sdx_reload_mss "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+19:08:25 INFO  : (SwPlatform)  Successfully done add_library 
+19:08:27 INFO  : (SwPlatform) Successfully done update_mss 
+19:08:27 INFO  : Successfully done sdx_reload_mss "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+19:08:58 INFO  : (SwPlatform)  Successfully done add_library 
+19:09:00 INFO  : (SwPlatform)  Successfully done add_library 
+19:09:02 INFO  : (SwPlatform) Successfully done update_mss 
+19:09:02 INFO  : Successfully done sdx_reload_mss "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+19:09:19 ERROR : Failed to openhw "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa"
+Reason: ERROR: [Common 17-39] 'hsi::open_hw_design' failed due to earlier errors.
+
+19:09:42 INFO  : Hardware specification for platform project 'TFM_ZYNQ_4_wrapper' is updated.
+19:09:49 INFO  : Successfully done sdx_reload_mss "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+19:09:49 INFO  : Successfully done sdx_reload_mss "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+19:09:54 INFO  : Successfully done sdx_reload_mss "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/ps7_cortexa9_0/standalone_domain/bsp/system.mss"
+19:09:54 INFO  : No changes in MSS file content so sources will not be generated.
+19:10:00 INFO  : Successfully done sdx_reload_mss "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss"
+19:10:00 INFO  : No changes in MSS file content so sources will not be generated.
+19:11:56 INFO  : Checking for BSP changes to sync application flags for project 'TFM_software_ethernet'...
+19:12:01 INFO  : Updating application flags with new BSP settings...
+19:12:02 INFO  : Successfully updated application flags for project TFM_software_ethernet.
+19:13:30 INFO  : Checking for BSP changes to sync application flags for project 'TFM_software_ethernet'...
+19:17:07 INFO  : Checking for BSP changes to sync application flags for project 'TFM_software_ethernet'...

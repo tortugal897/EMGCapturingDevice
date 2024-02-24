@@ -1,0 +1,168 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue May  9 23:21:20 2023
+# Process ID: 14232
+# Current directory: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10224 C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_4\TFM_ZYNQ_4.xpr
+# Log file: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/vivado.log
+# Journal file: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd}
+ipx::edit_ip_in_project -upgrade true -name ads_spi_ctrl_top_v2_0_project -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.tmp/ads_spi_ctrl_top_v2_0_project c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 37 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project
+update_ip_catalog -rebuild -repo_path c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo
+report_ip_status -name ip_status 
+upgrade_ip -vlnv urjc.es:user:ads_spi_ctrl_top:2.0 [get_ips  TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd]
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] }
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_auto_pc_1] }
+export_ip_user_files -of_objects [get_files C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd]
+launch_runs -jobs 2 TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1
+export_simulation -of_objects [get_files C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd] -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files -ipstatic_source_dir C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/modelsim} {questa=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/questa} {riviera=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/riviera} {activehdl=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+write_hw_platform -fixed -force  -include_bit -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4_wrapper.xsa
+ipx::edit_ip_in_project -upgrade true -name ads_spi_ctrl_top_v2_0_project -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.tmp/ads_spi_ctrl_top_v2_0_project c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml
+update_compile_order -fileset sources_1
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+- force
+close_project
+ipx::edit_ip_in_project -upgrade true -name ads_spi_ctrl_top_v2_0_project -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.tmp/ads_spi_ctrl_top_v2_0_project c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml
+update_compile_order -fileset sources_1
+add_files -norecurse -scan_for_includes -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -scan_for_includes C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 38 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project
+update_ip_catalog -rebuild -repo_path c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo
+report_ip_status -name ip_status 
+upgrade_ip -vlnv urjc.es:user:ads_spi_ctrl_top:2.0 [get_ips  TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd]
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] }
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_auto_pc_1] }
+export_ip_user_files -of_objects [get_files C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd]
+launch_runs -jobs 2 TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1
+export_simulation -of_objects [get_files C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd] -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files -ipstatic_source_dir C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/modelsim} {questa=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/questa} {riviera=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/riviera} {activehdl=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+ipx::edit_ip_in_project -upgrade true -name ads_spi_ctrl_top_v2_0_project -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.tmp/ads_spi_ctrl_top_v2_0_project c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml
+update_compile_order -fileset sources_1
+set_property core_revision 39 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+export_ip_user_files -of_objects  [get_files c:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd] -no_script -reset -force -quiet
+remove_files  c:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -scan_for_includes C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 40 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+export_ip_user_files -of_objects  [get_files C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/victo/Desktop/TFM/Zynq/ip_repo/readDataC_Ok_verified/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -scan_for_includes C:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 41 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+set_property core_revision 42 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+export_ip_user_files -of_objects  [get_files C:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -copy_to c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src C:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+add_files -norecurse -scan_for_includes C:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/src/clk_div_4MHz.vhd
+update_compile_order -fileset sources_1
+set_property core_revision 43 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 44 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::check_integrity -quiet [ipx::current_core]
+ipx::archive_core {c:\Users\victo\Desktop\TFM\Zynq\BeST_EMG_ads1298\example_dma_v0_5\ip_repo\ads_spi_ctrl_top_2.0\urjc.es_user_ads_spi_ctrl_top_2.0.zip} [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project
+update_ip_catalog -rebuild -repo_path c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo
+report_ip_status -name ip_status 
+upgrade_ip -vlnv urjc.es:user:ads_spi_ctrl_top:2.0 [get_ips  TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd]
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_ads_spi_ctrl_top_0_0] }
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_auto_pc_0] }
+catch { config_ip_cache -export [get_ips -all TFM_ZYNQ_4_auto_pc_1] }
+export_ip_user_files -of_objects [get_files C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd]
+launch_runs -jobs 2 TFM_ZYNQ_4_ads_spi_ctrl_top_0_0_synth_1
+export_simulation -of_objects [get_files C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.srcs/sources_1/bd/TFM_ZYNQ_4/TFM_ZYNQ_4.bd] -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files -ipstatic_source_dir C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/modelsim} {questa=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/questa} {riviera=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/riviera} {activehdl=C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+write_hw_platform -fixed -force  -include_bit -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4_wrapper.xsa
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+write_hw_platform -fixed -force  -include_bit -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4_wrapper.xsa
+ipx::edit_ip_in_project -upgrade true -name ads_spi_ctrl_top_v2_0_project -directory C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.tmp/ads_spi_ctrl_top_v2_0_project c:/Users/victo/Desktop/TFM/Zynq/BeST_EMG_ads1298/example_dma_v0_5/ip_repo/ads_spi_ctrl_top_2.0/component.xml
+update_compile_order -fileset sources_1
+close_project

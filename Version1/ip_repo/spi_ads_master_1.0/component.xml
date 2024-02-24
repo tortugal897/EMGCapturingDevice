@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <spirit:vendor>urjc.es</spirit:vendor>
+  <spirit:library>user</spirit:library>
+  <spirit:name>spi_ads_master</spirit:name>
+  <spirit:version>1.0</spirit:version>
+  <spirit:busInterfaces>
+    <spirit:busInterface>
+      <spirit:name>S00_AXI</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="aximm" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="aximm_rtl" spirit:version="1.0"/>
+      <spirit:slave>
+        <spirit:memoryMapRef spirit:memoryMapRef="S00_AXI"/>
+      </spirit:slave>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWADDR</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_awaddr</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWPROT</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_awprot</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_awvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>AWREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_awready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_wdata</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WSTRB</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_wstrb</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_wvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>WREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_wready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BRESP</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_bresp</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_bvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>BREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_bready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARADDR</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_araddr</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARPROT</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_arprot</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_arvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>ARREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_arready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_rdata</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RRESP</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_rresp</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_rvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_rready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>WIZ_DATA_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.S00_AXI.WIZ_DATA_WIDTH" spirit:choiceRef="choice_list_6fc15197">32</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>WIZ_NUM_REG</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.S00_AXI.WIZ_NUM_REG" spirit:minimum="4" spirit:maximum="512" spirit:rangeType="long">4</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>SUPPORTS_NARROW_BURST</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.S00_AXI.SUPPORTS_NARROW_BURST" spirit:choiceRef="choice_pairs_ce1226b1">0</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>M00_AXIS</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="axis" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="interface" spirit:name="axis_rtl" spirit:version="1.0"/>
+      <spirit:master/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TDATA</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>m00_axis_tdata</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TSTRB</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>m00_axis_tstrb</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TLAST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>m00_axis_tlast</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TVALID</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>m00_axis_tvalid</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>TREADY</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>m00_axis_tready</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>WIZ_DATA_WIDTH</spirit:name>
+          <spirit:value spirit:format="long" spirit:id="BUSIFPARAM_VALUE.M00_AXIS.WIZ_DATA_WIDTH" spirit:choiceRef="choice_list_6fc15197">32</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>S00_AXI_RST</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_aresetn</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>POLARITY</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S00_AXI_RST.POLARITY" spirit:choiceRef="choice_list_9d8b0d81">ACTIVE_LOW</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>S00_AXI_CLK</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>CLK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>s00_axi_aclk</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_BUSIF</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S00_AXI_CLK.ASSOCIATED_BUSIF">S00_AXI</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_RESET</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.S00_AXI_CLK.ASSOCIATED_RESET">s00_axi_aresetn</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>M00_AXIS_RST</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="reset_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>RST</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>m00_axis_aresetn</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>POLARITY</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.M00_AXIS_RST.POLARITY" spirit:choiceRef="choice_list_9d8b0d81">ACTIVE_LOW</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+    <spirit:busInterface>
+      <spirit:name>M00_AXIS_CLK</spirit:name>
+      <spirit:busType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock" spirit:version="1.0"/>
+      <spirit:abstractionType spirit:vendor="xilinx.com" spirit:library="signal" spirit:name="clock_rtl" spirit:version="1.0"/>
+      <spirit:slave/>
+      <spirit:portMaps>
+        <spirit:portMap>
+          <spirit:logicalPort>
+            <spirit:name>CLK</spirit:name>
+          </spirit:logicalPort>
+          <spirit:physicalPort>
+            <spirit:name>m00_axis_aclk</spirit:name>
+          </spirit:physicalPort>
+        </spirit:portMap>
+      </spirit:portMaps>
+      <spirit:parameters>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_BUSIF</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.M00_AXIS_CLK.ASSOCIATED_BUSIF">M00_AXIS</spirit:value>
+        </spirit:parameter>
+        <spirit:parameter>
+          <spirit:name>ASSOCIATED_RESET</spirit:name>
+          <spirit:value spirit:id="BUSIFPARAM_VALUE.M00_AXIS_CLK.ASSOCIATED_RESET">m00_axis_aresetn</spirit:value>
+        </spirit:parameter>
+      </spirit:parameters>
+    </spirit:busInterface>
+  </spirit:busInterfaces>
+  <spirit:memoryMaps>
+    <spirit:memoryMap>
+      <spirit:name>S00_AXI</spirit:name>
+      <spirit:addressBlock>
+        <spirit:name>S00_AXI_reg</spirit:name>
+        <spirit:baseAddress spirit:format="long" spirit:resolve="user">0</spirit:baseAddress>
+        <spirit:range spirit:format="long">4096</spirit:range>
+        <spirit:width spirit:format="long">32</spirit:width>
+        <spirit:usage>register</spirit:usage>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>OFFSET_BASE_PARAM</spirit:name>
+            <spirit:value spirit:id="ADDRBLOCKPARAM_VALUE.S00_AXI.S00_AXI_REG.OFFSET_BASE_PARAM">C_S00_AXI_BASEADDR</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
+            <spirit:name>OFFSET_HIGH_PARAM</spirit:name>
+            <spirit:value spirit:id="ADDRBLOCKPARAM_VALUE.S00_AXI.S00_AXI_REG.OFFSET_HIGH_PARAM">C_S00_AXI_HIGHADDR</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:addressBlock>
+    </spirit:memoryMap>
+  </spirit:memoryMaps>
+  <spirit:model>
+    <spirit:views>
+      <spirit:view>
+        <spirit:name>xilinx_vhdlsynthesis</spirit:name>
+        <spirit:displayName>VHDL Synthesis</spirit:displayName>
+        <spirit:envIdentifier>vhdlSource:vivado.xilinx.com:synthesis</spirit:envIdentifier>
+        <spirit:language>vhdl</spirit:language>
+        <spirit:modelName>spi_ctrl_top_v1_0</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_vhdlsynthesis_xilinx_com_ip_fifo_generator_13_2__ref_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_vhdlsynthesis_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>97202430</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_vhdlbehavioralsimulation</spirit:name>
+        <spirit:displayName>Simulation</spirit:displayName>
+        <spirit:envIdentifier>Source:vivado.xilinx.com:simulation</spirit:envIdentifier>
+        <spirit:language>mixed</spirit:language>
+        <spirit:modelName>spi_ctrl_top_v1_0</spirit:modelName>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_vhdlbehavioralsimulation_xilinx_com_ip_fifo_generator_13_2__ref_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_vhdlbehavioralsimulation_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>97202430</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_softwaredriver</spirit:name>
+        <spirit:displayName>Software Driver</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:sw.driver</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_softwaredriver_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>b0b9eb03</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>xilinx_xpgui</spirit:name>
+        <spirit:displayName>UI Layout</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:xgui.ui</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>xilinx_xpgui_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>9e9c5f91</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+      <spirit:view>
+        <spirit:name>bd_tcl</spirit:name>
+        <spirit:displayName>Block Diagram</spirit:displayName>
+        <spirit:envIdentifier>:vivado.xilinx.com:block.diagram</spirit:envIdentifier>
+        <spirit:fileSetRef>
+          <spirit:localName>bd_tcl_view_fileset</spirit:localName>
+        </spirit:fileSetRef>
+        <spirit:parameters>
+          <spirit:parameter>
+            <spirit:name>viewChecksum</spirit:name>
+            <spirit:value>16328387</spirit:value>
+          </spirit:parameter>
+        </spirit:parameters>
+      </spirit:view>
+    </spirit:views>
+    <spirit:ports>
+      <spirit:port>
+        <spirit:name>spi_ssel_o</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>spi_sck_o</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>spi_mosi_o</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>spi_miso_i</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>spi_drdy_i</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_aclk</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_aresetn</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_awaddr</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_ADDR_WIDTH&apos;)) - 1)">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_awprot</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_awvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_awready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_wdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_DATA_WIDTH&apos;)) - 1)">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_wstrb</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_DATA_WIDTH&apos;)) / 8) - 1)">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_wvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_wready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_bresp</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_bvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_bready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_araddr</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_ADDR_WIDTH&apos;)) - 1)">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_arprot</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">2</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_arvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_arready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_rdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_S00_AXI_DATA_WIDTH&apos;)) - 1)">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_rresp</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long">1</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_rvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>s00_axi_rready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>m00_axis_aclk</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>m00_axis_aresetn</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>m00_axis_tvalid</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>m00_axis_tdata</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_M00_AXIS_TDATA_WIDTH&apos;)) - 1)">31</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>m00_axis_tstrb</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:vector>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="((spirit:decode(id(&apos;MODELPARAM_VALUE.C_M00_AXIS_TDATA_WIDTH&apos;)) / 8) - 1)">3</spirit:left>
+            <spirit:right spirit:format="long">0</spirit:right>
+          </spirit:vector>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic_vector</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>m00_axis_tlast</spirit:name>
+        <spirit:wire>
+          <spirit:direction>out</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+      <spirit:port>
+        <spirit:name>m00_axis_tready</spirit:name>
+        <spirit:wire>
+          <spirit:direction>in</spirit:direction>
+          <spirit:wireTypeDefs>
+            <spirit:wireTypeDef>
+              <spirit:typeName>std_logic</spirit:typeName>
+              <spirit:viewNameRef>xilinx_vhdlsynthesis</spirit:viewNameRef>
+            </spirit:wireTypeDef>
+          </spirit:wireTypeDefs>
+        </spirit:wire>
+      </spirit:port>
+    </spirit:ports>
+    <spirit:modelParameters>
+      <spirit:modelParameter xsi:type="spirit:nameValueTypeType" spirit:dataType="integer">
+        <spirit:name>C_S00_AXI_DATA_WIDTH</spirit:name>
+        <spirit:displayName>C S00 AXI DATA WIDTH</spirit:displayName>
+        <spirit:description>Width of S_AXI data bus</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S00_AXI_DATA_WIDTH" spirit:order="3" spirit:rangeType="long">32</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_S00_AXI_ADDR_WIDTH</spirit:name>
+        <spirit:displayName>C S00 AXI ADDR WIDTH</spirit:displayName>
+        <spirit:description>Width of S_AXI address bus</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_S00_AXI_ADDR_WIDTH" spirit:order="4" spirit:rangeType="long">4</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_M00_AXIS_TDATA_WIDTH</spirit:name>
+        <spirit:displayName>C M00 AXIS TDATA WIDTH</spirit:displayName>
+        <spirit:description>Width of S_AXIS address bus. The slave accepts the read and write addresses of width C_M_AXIS_TDATA_WIDTH.</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_M00_AXIS_TDATA_WIDTH" spirit:order="7" spirit:rangeType="long">32</spirit:value>
+      </spirit:modelParameter>
+      <spirit:modelParameter spirit:dataType="integer">
+        <spirit:name>C_M00_AXIS_START_COUNT</spirit:name>
+        <spirit:displayName>C M00 AXIS START COUNT</spirit:displayName>
+        <spirit:description>Start count is the number of clock cycles the master will wait before initiating/issuing any transaction.</spirit:description>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_M00_AXIS_START_COUNT" spirit:order="8" spirit:minimum="1" spirit:rangeType="long">32</spirit:value>
+      </spirit:modelParameter>
+    </spirit:modelParameters>
+  </spirit:model>
+  <spirit:choices>
+    <spirit:choice>
+      <spirit:name>choice_list_6fc15197</spirit:name>
+      <spirit:enumeration>32</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_list_9d8b0d81</spirit:name>
+      <spirit:enumeration>ACTIVE_HIGH</spirit:enumeration>
+      <spirit:enumeration>ACTIVE_LOW</spirit:enumeration>
+    </spirit:choice>
+    <spirit:choice>
+      <spirit:name>choice_pairs_ce1226b1</spirit:name>
+      <spirit:enumeration spirit:text="true">1</spirit:enumeration>
+      <spirit:enumeration spirit:text="false">0</spirit:enumeration>
+    </spirit:choice>
+  </spirit:choices>
+  <spirit:fileSets>
+    <spirit:fileSet>
+      <spirit:name>xilinx_vhdlsynthesis_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>src/fifo64x32/fifo64x32.xci</spirit:name>
+        <spirit:userFileType>xci</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/spi_ads_master_v1_0_S00_AXI.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/spi_ctrl.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/spi_master.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/spi_ads_master_v1_0.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+        <spirit:userFileType>CHECKSUM_c0f4b212</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_vhdlsynthesis_xilinx_com_ip_fifo_generator_13_2__ref_view_fileset</spirit:name>
+      <spirit:vendorExtensions>
+        <xilinx:subCoreRef>
+          <xilinx:componentRef xilinx:vendor="xilinx.com" xilinx:library="ip" xilinx:name="fifo_generator" xilinx:version="13.2">
+            <xilinx:mode xilinx:name="create_mode"/>
+          </xilinx:componentRef>
+        </xilinx:subCoreRef>
+      </spirit:vendorExtensions>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_vhdlbehavioralsimulation_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>src/fifo64x32/fifo64x32.xci</spirit:name>
+        <spirit:userFileType>xci</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/spi_ads_master_v1_0_S00_AXI.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/spi_ctrl.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>src/spi_master.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>hdl/spi_ads_master_v1_0.vhd</spirit:name>
+        <spirit:fileType>vhdlSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_vhdlbehavioralsimulation_xilinx_com_ip_fifo_generator_13_2__ref_view_fileset</spirit:name>
+      <spirit:vendorExtensions>
+        <xilinx:subCoreRef>
+          <xilinx:componentRef xilinx:vendor="xilinx.com" xilinx:library="ip" xilinx:name="fifo_generator" xilinx:version="13.2">
+            <xilinx:mode xilinx:name="create_mode"/>
+          </xilinx:componentRef>
+        </xilinx:subCoreRef>
+      </spirit:vendorExtensions>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_softwaredriver_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>drivers/spi_ads_master_v1_0/data/spi_ads_master.mdd</spirit:name>
+        <spirit:userFileType>mdd</spirit:userFileType>
+        <spirit:userFileType>driver_mdd</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>drivers/spi_ads_master_v1_0/data/spi_ads_master.tcl</spirit:name>
+        <spirit:fileType>tclSource</spirit:fileType>
+        <spirit:userFileType>driver_tcl</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>drivers/spi_ads_master_v1_0/src/Makefile</spirit:name>
+        <spirit:userFileType>driver_src</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>drivers/spi_ads_master_v1_0/src/spi_ads_master.h</spirit:name>
+        <spirit:fileType>cSource</spirit:fileType>
+        <spirit:userFileType>driver_src</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>drivers/spi_ads_master_v1_0/src/spi_ads_master.c</spirit:name>
+        <spirit:fileType>cSource</spirit:fileType>
+        <spirit:userFileType>driver_src</spirit:userFileType>
+      </spirit:file>
+      <spirit:file>
+        <spirit:name>drivers/spi_ads_master_v1_0/src/spi_ads_master_selftest.c</spirit:name>
+        <spirit:fileType>cSource</spirit:fileType>
+        <spirit:userFileType>driver_src</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>xilinx_xpgui_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>xgui/spi_ads_master_v1_0.tcl</spirit:name>
+        <spirit:fileType>tclSource</spirit:fileType>
+        <spirit:userFileType>CHECKSUM_9e9c5f91</spirit:userFileType>
+        <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
+      </spirit:file>
+    </spirit:fileSet>
+    <spirit:fileSet>
+      <spirit:name>bd_tcl_view_fileset</spirit:name>
+      <spirit:file>
+        <spirit:name>bd/bd.tcl</spirit:name>
+        <spirit:fileType>tclSource</spirit:fileType>
+      </spirit:file>
+    </spirit:fileSet>
+  </spirit:fileSets>
+  <spirit:description>My new AXI IP</spirit:description>
+  <spirit:parameters>
+    <spirit:parameter>
+      <spirit:name>C_S00_AXI_DATA_WIDTH</spirit:name>
+      <spirit:displayName>C S00 AXI DATA WIDTH</spirit:displayName>
+      <spirit:description>Width of S_AXI data bus</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S00_AXI_DATA_WIDTH" spirit:choiceRef="choice_list_6fc15197" spirit:order="3">32</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S00_AXI_DATA_WIDTH">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S00_AXI_ADDR_WIDTH</spirit:name>
+      <spirit:displayName>C S00 AXI ADDR WIDTH</spirit:displayName>
+      <spirit:description>Width of S_AXI address bus</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S00_AXI_ADDR_WIDTH" spirit:order="4" spirit:rangeType="long">4</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S00_AXI_ADDR_WIDTH">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S00_AXI_BASEADDR</spirit:name>
+      <spirit:displayName>C S00 AXI BASEADDR</spirit:displayName>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S00_AXI_BASEADDR" spirit:order="5" spirit:bitStringLength="32">0xFFFFFFFF</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S00_AXI_BASEADDR">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_S00_AXI_HIGHADDR</spirit:name>
+      <spirit:displayName>C S00 AXI HIGHADDR</spirit:displayName>
+      <spirit:value spirit:format="bitString" spirit:resolve="user" spirit:id="PARAM_VALUE.C_S00_AXI_HIGHADDR" spirit:order="6" spirit:bitStringLength="32">0x00000000</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_S00_AXI_HIGHADDR">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_M00_AXIS_TDATA_WIDTH</spirit:name>
+      <spirit:displayName>C M00 AXIS TDATA WIDTH</spirit:displayName>
+      <spirit:description>Width of S_AXIS address bus. The slave accepts the read and write addresses of width C_M_AXIS_TDATA_WIDTH.</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_M00_AXIS_TDATA_WIDTH" spirit:choiceRef="choice_list_6fc15197" spirit:order="7">32</spirit:value>
+      <spirit:vendorExtensions>
+        <xilinx:parameterInfo>
+          <xilinx:enablement>
+            <xilinx:isEnabled xilinx:id="PARAM_ENABLEMENT.C_M00_AXIS_TDATA_WIDTH">false</xilinx:isEnabled>
+          </xilinx:enablement>
+        </xilinx:parameterInfo>
+      </spirit:vendorExtensions>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>C_M00_AXIS_START_COUNT</spirit:name>
+      <spirit:displayName>C M00 AXIS START COUNT</spirit:displayName>
+      <spirit:description>Start count is the number of clock cycles the master will wait before initiating/issuing any transaction.</spirit:description>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_M00_AXIS_START_COUNT" spirit:order="8" spirit:minimum="1" spirit:rangeType="long">32</spirit:value>
+    </spirit:parameter>
+    <spirit:parameter>
+      <spirit:name>Component_Name</spirit:name>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.Component_Name" spirit:order="1">spi_ads_master_v1_0</spirit:value>
+    </spirit:parameter>
+  </spirit:parameters>
+  <spirit:vendorExtensions>
+    <xilinx:coreExtensions>
+      <xilinx:supportedFamilies>
+        <xilinx:family xilinx:lifeCycle="Pre-Production">zynq</xilinx:family>
+      </xilinx:supportedFamilies>
+      <xilinx:taxonomies>
+        <xilinx:taxonomy>AXI_Peripheral</xilinx:taxonomy>
+      </xilinx:taxonomies>
+      <xilinx:displayName>spi_ads_master_v1.0</xilinx:displayName>
+      <xilinx:coreRevision>44</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2023-03-28T11:12:26Z</xilinx:coreCreationDateTime>
+      <xilinx:tags>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b05089_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@9600339_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@61e0241c_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1af7e433_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d039ea_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7e01231b_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d9e6cab_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ec6139a_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a2fa181_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d956e8a_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2423cc2_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6fe0552a_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@9e9a0c5_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d2817c4_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@da6c787_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@15f4bd3d_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@406f8e5a_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b292be3_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@76263fba_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@170eb05d_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71a6bd47_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@51acb947_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@55852eb2_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@15c668c1_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c8c3b0b_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@212ba29f_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c80ef41_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3e3d0633_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38052559_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4220c526_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7e81d352_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6bce177d_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ce36d90_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@745437ba_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2eb57ad0_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@33cf26d4_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b844333_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5161ea02_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6bdd67cd_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71096cc9_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2c47c00_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@53c05ed0_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4762a59c_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@36261d98_ARCHIVE_LOCATION">c:/workspace/Vivado/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7bf8baf9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f932bc2_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a9c2acc_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@252b15a0_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@485d740c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74c746a9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7eedff65_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@354d263c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@626f9863_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@17b54335_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d83e48b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@27ed33cb_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78620bee_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57ae6158_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d824817_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4a47b003_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4f88a2d5_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@743828ac_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@36059d20_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c8cca14_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f79ead_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c532b5_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6dc3bf7a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@25edccc5_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1472ba0_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@230cd623_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@719c527d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a82a8f9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@137db660_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d45704c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@76913041_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42e44b7f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b88d13f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4682af67_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ab3c4f1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@44087a6d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d80b730_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5066ecbb_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@22bd7927_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ac8d6cc_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@708a8817_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@700a1d91_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4f64dc1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@47f61c77_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@afba115_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ebdbdc7_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@304677aa_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@45cd71f0_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7339d60a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ce7089_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67959838_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74204f2b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57810887_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b6bdcd4_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c1aac81_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74b2efba_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@23cf17f4_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3fe26b1b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a167264_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@63d6d049_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d82cf56_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7aff3831_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@608ce127_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f0c151c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@105977ef_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6fa7557_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b8af7b6_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@290f23a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@376c2725_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@152795ee_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d2501cc_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@14c38359_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67ceab13_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3685d07e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b933977_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1850e0b4_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2188adf8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d63307a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@10ad3a21_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f20c2e3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@195ae061_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@79b715e3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1dc65f43_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1331b7fc_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@29c22b3e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f9c2e1d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f5e1b3a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@40c9c7f4_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@64648fa8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f81585a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7125ea13_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b41c595_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@303f6586_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7419d4f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@27da68ee_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c166cac_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@15bd0797_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@afc5e71_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@648dd2d2_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4bf057f7_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1b225acb_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b31c353_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4fc730b2_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b9be3c1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3b8f9a26_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@31c512f8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c2057fe_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@276005e9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41973caf_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@746b4b5d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d2e468c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@40b47419_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4bf62ddc_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1bb2507e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41e2f634_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6da185e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@ab26084_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e817a9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1813e41f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77bbbd84_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@748fb30f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2524373d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@dcb96dd_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f1efdb0_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@387d1d43_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@489fd2a9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@88a5a12_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4457dab2_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d4479af_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4462c30f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3af939ee_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@614e5732_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@65f89b96_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7dc0de8a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@31316db0_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@109a8f24_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a94275f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@9ef2844_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5529f9f3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3f6c37d1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4bb972c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ed8eedd_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42792d5_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3fb55fae_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ccce50f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ff85ddf_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f74fc3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1357cbb4_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7caaca74_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5590ba3e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@45bb31d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5cc2414e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@28572aff_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@33e9afea_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a0da67e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5144279d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3150a9c1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4f064c90_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6334f65a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3950890d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@61487909_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6cfb6195_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e49d547_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6f409141_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@336394c2_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11a32e23_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32c21250_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d4bd9f1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4876d754_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6862d7bc_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@de911df_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2928ed34_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3377cd1f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@592de373_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7cec1135_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2046bd45_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@23333877_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d83cab7_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@25959225_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e03c946_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@119ffac_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@64a688cc_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@45c1b530_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@494e8213_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@30d3e6cc_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b330efa_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c337f5b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2708f3a9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6923877b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ae8ebdc_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@189c762d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2486f193_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a1b7215_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@63dcaf8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@26fae7a3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@18809ea8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@141bffc2_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11c733de_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@551d2616_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@957f343_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@38d5e217_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b9a5b5d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6bbbbc6c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@316dc9b6_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5d0d4777_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@74747254_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1f2f30d5_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1929beb3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4cdf476f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@39ef65d7_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e97951a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@394bdfe9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72f5a3a0_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@398656b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e73f1f8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a9bb376_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6ee9cae0_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@44e6797b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@300821cf_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@776591d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@79d07596_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e82439e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1bc71763_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@730694c9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d87c73d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2803d905_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@572e298b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7cb2229a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@c2877c2_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@459402d8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f3e338d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6fe5fc7a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24838b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6a33b7e4_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@204462f5_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7cd218eb_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@19e217d9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@22e028ba_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@44b6af22_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b839f29_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@382cd2fe_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@55766033_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f979510_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6d9b3c0e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@31a19ef6_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@59526199_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@e486d6_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@e62d5e3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3424a895_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6dda8f3f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@486792ca_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73cd799c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c5d296a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@322a9630_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@744706f7_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@36febcc9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67828c74_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@509bb58f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@98afd75_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@324db320_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2c29b727_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48f5c581_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@293c5f08_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12f05475_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11c9fb97_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5aef0fc3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2ffd3c68_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@18707bc0_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5e7ae2c8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@618138dd_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f5efe4e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d16c023_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1bfe5804_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3464684b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@406cc87a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@bbe1782_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@63cf0c06_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4cb042eb_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@17743691_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72406df0_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4e95592f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4cb88c6c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4fc75f6_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3280fe53_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72376021_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@60662337_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a33eb54_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d1a836f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3f6e91f8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42531389_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@18922d25_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4188c43f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ded8c9c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1949d58b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f172933_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3442464_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7aca8f3b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a4e1831_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@177eb8db_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6219a793_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e212887_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@20be47cf_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@48d5cf1c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@53d135e9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77fe7c10_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13bfd94f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@15874f0_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@33e7ae9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71ee3a4a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@189f3a79_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@40ce3170_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7e204ec3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@379bf6b9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@bffb2f2_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e001fb_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4129ad3a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ffec5c1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7fa32d39_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@82b8a1b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4ac37687_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73e1212f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@67c0ed74_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54bca808_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4c826579_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11b34508_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@22ef976b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77bec533_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@85a0b1d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7082e3b1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@25d1ddcd_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f9d1a4_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@19834030_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@684f45ff_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13361714_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@40f2ac49_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@23f32c1e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@35811a55_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@232e86cd_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7bde64a1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c50c88d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13868ae4_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@93eaf65_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@591b2902_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d374a39_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@393a80d5_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@c1c1709_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1dc7314d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2362d3ef_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@12b7ff25_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@789145e3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4c2844f4_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@52f6dccf_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@66d08698_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@54ec1e2b_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7915de55_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77381d9f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ac5dc80_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@369832fe_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@34a11634_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41f5103e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7dd8cab8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@39813853_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@65a10c36_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@131099ed_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@51197477_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a3485cf_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@19b560ec_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7a99f777_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@16f8a0b6_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57577d65_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@636e41a4_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@25521da8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5152c331_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@43d894f3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56098472_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6cbe0969_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37b0d6e9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5036f422_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6dd5b377_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ccd978f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@18742cb9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e2f2f39_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@387a3fc9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f70e2ca_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6778e6a9_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@26cc092c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c16661a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@139a7142_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5505f4fe_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7581f9b6_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@59cd27e8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3cc86836_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b7e0b8a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@21127a35_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d8974d8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b9005b5_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@53962740_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@10072de1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6c7bf6de_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@33f80e35_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@28c00ead_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@108503aa_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@32ac44e2_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7993a5e6_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@57ad65f2_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b607d61_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@318ac1a1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@323db2d3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@11169ee_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@727bb889_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b5924ec_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@26078434_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@61dca76a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1030cda0_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4000398_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@33098760_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6017026_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@663f378e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c80670c_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4f1536d1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@43080562_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2d59c30e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5f5707e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@558a8340_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@52d61622_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13fd254f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@42dd7e75_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@762c4161_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5ed18726_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71c5adc1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f0b9b61_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78b7e70a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6676314e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4d16a265_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@75f0bfb6_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6aa9bd3e_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@196e7958_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@580ba9ae_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@590e8bb7_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5c0fe912_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@439d7e83_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a529506_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7f2b78aa_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@539be7e8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3cbf00e8_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@479eed74_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4695a5ab_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3d3f9a47_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@64ef29bc_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d960b7a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d6ea663_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3393dfa5_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2bdfdb58_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@78e8fe07_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e3d2dc0_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@134a4c3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1ee7f7e6_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2696a63d_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@71482b51_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7834b8d1_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@28dc1cb3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5b4c6af7_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6de2d726_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7d1d8570_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@55c205a3_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1e55186_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@36f8109a_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2e0efd67_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@317f343f_ARCHIVE_LOCATION">c:/Users/victo/Desktop/TFM/Zynq/ip_repo/spi_ads_master_1.0</xilinx:tag>
+      </xilinx:tags>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2019.2</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="4149809a"/>
+      <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="ed1368d5"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="998f1149"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="701374de"/>
+      <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="e47cea37"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="287b72b2"/>
+    </xilinx:packagingInfo>
+  </spirit:vendorExtensions>
+</spirit:component>

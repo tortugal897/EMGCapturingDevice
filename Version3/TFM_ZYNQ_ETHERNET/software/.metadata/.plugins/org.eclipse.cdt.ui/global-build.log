@@ -1,0 +1,1273 @@
+19:09:20 **** Clean-only build of project TFM_ZYNQ_4_wrapper ****
+buildplatform.bat 62334 TFM_ZYNQ_4_wrapper clean 
+XSDB Server Channel: tcfchan#5
+Cleaning the zynq_fsbl application.
+rm -rf  sd.o  nand.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  nor.o  qspi.o  ps7_init.o  pcap.o  fsbl_handoff.o zynq
+_fsbl_bsp/ps7_cortexa9_0/lib/libxil.a executable.elf *.o
+
+rm: no se puede efectuar `lstat' sobre «*.o»: Invalid argument
+make: *** [Makefile:41: clean] Error 1
+Failed to do platform clean.
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{platform active TFM_ZYNQ_4_wrapper; platform clean}}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "platform active $PLATFORM_NAME; platform clean"]"
+    invoked from within
+"if { $iswindows == 1 } {    
+
+    set XSDB_PORT [lindex $argv 0]
+    set PLATFORM_NAME [lindex $argv 1]
+    set arglen [llength $argv]
+    set lastind..."
+    (file "C:/Xilinx/Vitis/2019.2\scripts\vitis\util\buildplatform.tcl" line 11)
+19:09:23 **** Clean-only build of configuration Debug for project TFM_software_ethernet ****
+make clean 
+rm -rf  ./src/ads1298r_api.o ./src/dma_api.o ./src/echo.o ./src/ethernet.o ./src/gic_api.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/ps7_init.o ./src/sfp.o ./src/si5324.o ./src/spi_api.o  ./src/ads1298r_api.d ./src/dma_api.d ./src/echo.d ./src/ethernet.d ./src/gic_api.d ./src/i2c_access.d ./src/iic_phyreset.d ./src/main.d ./src/platform.d ./src/platform_mb.d ./src/platform_ppc.d ./src/platform_zynq.d ./src/platform_zynqmp.d ./src/ps7_init.d ./src/sfp.d ./src/si5324.d ./src/spi_api.d  TFM_software_ethernet.elf.size  TFM_software_ethernet.elf
+' '
+19:10:01 **** Build of project TFM_ZYNQ_4_wrapper ****
+buildplatform.bat 62334 TFM_ZYNQ_4_wrapper  
+XSDB Server Channel: tcfchan#6
+Building the zynq_fsbl application.
+make -C zynq_fsbl_bsp
+
+make[1]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp'
+
+"Running Make include in ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+hard -nostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_10/src"
+
+make -C ps7_cortexa9_0/libsrc/axidma_v9_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/axidma_v9_10/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/axidma_v9_10/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+ard -nostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+ -nostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+rtfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/devcfg_v3_5/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+rtfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/emacps_v3_10/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/emacps_v3_10/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/gpiops_v3_6/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/lwip211_v1_1/src"
+
+make -C ps7_cortexa9_0/libsrc/lwip211_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/lwip211_v1_1/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/lwip211_v1_1/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/qspips_v3_6/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/qspips_v3_6/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/scugic_v4_1/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/scutimer_v2_1/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/spi_v4_5/src"
+
+make -C ps7_cortexa9_0/libsrc/spi_v4_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/spi_v4_5/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/spi_v4_5/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/standalone_v7_1/src'
+
+make[3]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/standalone_v7_1/src/profile'
+
+make[3]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/standalone_v7_1/src/profile'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/standalone_v7_1/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/uartps_v3_8/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/xadcps_v2_3/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/xilffs_v4_2/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
+
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+d -nostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src'
+
+"Compiling ads_spi_ctrl_top..."
+
+ads_spi_ctrl_top_selftest.c: In function 'ADS_SPI_CTRL_TOP_Reg_SelfTest':
+ads_spi_ctrl_top_selftest.c:52:65: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( ADS_SPI_CTRL_TOP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                 ^~
+ads_spi_ctrl_top_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+make[3]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src'
+
+make[3]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src'
+
+"Compiling ads_spi_mux..."
+
+ads_spi_mux_selftest.c: In function 'ADS_SPI_MUX_Reg_SelfTest':
+ads_spi_mux_selftest.c:52:60: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( ADS_SPI_MUX_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                            ^~
+ads_spi_mux_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+make[3]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src'
+
+make[3]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_10/src"
+
+make -C ps7_cortexa9_0/libsrc/axidma_v9_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+tfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/axidma_v9_10/src'
+
+"Compiling axidma"
+
+make[3]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/axidma_v9_10/src'
+
+make[3]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/axidma_v9_10/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/axidma_v9_10/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+ -nostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src'
+
+"Compiling coresightps_dcc"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src'
+
+"Compiling cpu_cortexa9"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+iles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src'
+
+"Compiling ddrps"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/src'
+
+"Compiling devcfg"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/devcfg_v3_5/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+iles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src'
+
+"Compiling dmaps"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+tfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/emacps_v3_10/src'
+
+"Compiling emacps"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/emacps_v3_10/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6/src'
+
+"Compiling gpiops"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/gpiops_v3_6/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/lwip211_v1_1/src"
+
+make -C ps7_cortexa9_0/libsrc/lwip211_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+tfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/lwip211_v1_1/src'
+
+"Compiling lwip src and adapter files"
+
+In file included from ../../../include/xemacps.h:347,
+                 from ../../../include/netif/xemacpsif.h:56,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:37:
+contrib/ports/xilinx/netif/xemacpsif_dma.c: In function 'init_dma':
+../../../include/xemacps_hw.h:613:23: warning: 'bdrxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define XEmacPs_Out32 Xil_Out32
+                       ^~~~~~~~~
+contrib/ports/xilinx/netif/xemacpsif_dma.c:561:14: note: 'bdrxterminate' was declared here
+  XEmacPs_Bd *bdrxterminate;
+              ^~~~~~~~~~~~~
+In file included from ../../../include/xemacps.h:348,
+                 from ../../../include/netif/xemacpsif.h:56,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:37:
+../../../include/xemacps_bd.h:140:12: warning: 'bdtxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  (*(u32 *)((UINTPTR)((void*)(BaseAddress)) + (u32)(Offset)))
+            ^
+contrib/ports/xilinx/netif/xemacpsif_dma.c:560:14: note: 'bdtxterminate' was declared here
+  XEmacPs_Bd *bdtxterminate;
+              ^~~~~~~~~~~~~
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/lwip211_v1_1/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/qspips_v3_6/src'
+
+"Compiling qspips"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/qspips_v3_6/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/src'
+
+"Compiling scugic"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/scugic_v4_1/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+rtfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/src'
+
+"Compiling scutimer"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/scutimer_v2_1/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/src'
+
+"Compiling scuwdt"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/spi_v4_5/src"
+
+make -C ps7_cortexa9_0/libsrc/spi_v4_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARCH
+IVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfil
+es -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/spi_v4_5/src'
+
+"Compiling spi"
+
+make[3]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/spi_v4_5/src'
+
+make[3]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/spi_v4_5/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/spi_v4_5/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/standalone_v7_1/src'
+
+"Compiling standalone"
+
+In file included from usleep.c:54:
+xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:52:
+xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:47:
+xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:51:
+xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/standalone_v7_1/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/src'
+
+"Compiling uartps"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/uartps_v3_8/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/src'
+
+"Compiling xadcps"
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/xadcps_v2_3/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/src'
+
+"Compiling XilFFs Library"
+
+diskio.c: In function 'disk_read':
+diskio.c:340:9: warning: unused parameter 'buff' [-Wunused-parameter]
+   BYTE *buff, /* Pointer to the data buffer to store read data */
+   ~~~~~~^~~~
+diskio.c:341:9: warning: unused parameter 'sector' [-Wunused-parameter]
+   DWORD sector, /* Start sector number (LBA) */
+   ~~~~~~^~~~~~
+diskio.c: In function 'disk_ioctl':
+diskio.c:384:7: warning: unused parameter 'pdrv' [-Wunused-parameter]
+  BYTE pdrv,    /* Physical drive number (0) */
+  ~~~~~^~~~
+diskio.c:385:7: warning: unused parameter 'cmd' [-Wunused-parameter]
+  BYTE cmd,    /* Control code */
+  ~~~~~^~~
+diskio.c:386:8: warning: unused parameter 'buff' [-Wunused-parameter]
+  void *buff    /* Buffer to send/receive control data */
+  ~~~~~~^~~~
+diskio.c: In function 'disk_write':
+diskio.c:486:14: warning: unused parameter 'buff' [-Wunused-parameter]
+  const BYTE *buff, /* Data to be written */
+  ~~~~~~~~~~~~^~~~
+diskio.c:487:8: warning: unused parameter 'sector' [-Wunused-parameter]
+  DWORD sector,  /* Sector address (LBA) */
+  ~~~~~~^~~~~~
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/xilffs_v4_2/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
+
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_
+bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/src'
+
+make[2]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/src'
+
+'Finished building libraries'
+
+make[1]: Leaving directory 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/zynq_fsbl/zynq_fsbl_b
+sp'
+
+arm-none-eabi-gcc -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cortexa9_0
+/include -I.
+
+arm-none-eabi-gcc -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_cortex
+a9_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c image_mover.c -o image_mover.o -Izynq_fsbl_
+bsp/ps7_cortexa9_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_cortexa9
+_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_fsbl_bs
+p/ps7_cortexa9_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c main.c -o main.o -Izynq_fsbl_bsp/ps7_cortex
+a9_0/include -I.
+
+In file included from main.c:135:
+zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_cortexa9
+_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_cortexa9
+_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_cortex
+a9_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c ps7_init.c -o ps7_init.o -Izynq_fsbl_bsp/ps
+7_cortexa9_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_cortex
+a9_0/include -I.
+
+In file included from pcap.c:98:
+zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_handoff.S -o fsbl_handoff.o -Izynq_fsb
+l_bsp/ps7_cortexa9_0/include -I.
+
+arm-none-eabi-gcc -o executable.elf  sd.o  nand.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  nor.o  qspi.o  ps7_init.o
+  pcap.o  fsbl_handoff.o -MMD -MP        -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi
+=hard -Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lx
+il,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-gr
+oup                                     -Wl,--gc-sections -Lzynq_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+Building the BSP Library for domain  - standalone_domain on processor ps7_cortexa9_0
+"Running Make include in ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-non
+e-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+hard -nostartfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eab
+i-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard 
+-nostartfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_10/src"
+
+make -C ps7_cortexa9_0/libsrc/axidma_v9_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+ard -nostartfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+ -nostartfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+rtfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+rtfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/lwip211_v1_1/src"
+
+make -C ps7_cortexa9_0/libsrc/lwip211_v1_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/spi_v4_5/src"
+
+make -C ps7_cortexa9_0/libsrc/spi_v4_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
+
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ads_spi_ctrl_top_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-e
+abi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=har
+d -nostartfiles -g -Wall -Wextra"
+
+"Compiling ads_spi_ctrl_top..."
+
+ads_spi_ctrl_top_selftest.c: In function 'ADS_SPI_CTRL_TOP_Reg_SelfTest':
+ads_spi_ctrl_top_selftest.c:52:65: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( ADS_SPI_CTRL_TOP_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                                 ^~
+ads_spi_ctrl_top_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ads_spi_mux_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra"
+
+"Compiling ads_spi_mux..."
+
+ads_spi_mux_selftest.c: In function 'ADS_SPI_MUX_Reg_SelfTest':
+ads_spi_mux_selftest.c:52:60: warning: comparison of integer expressions of different signedness: 'u32' {aka 'long unsigned int'} and 'int' [-Wsign-compare]
+    if ( ADS_SPI_MUX_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                            ^~
+ads_spi_mux_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/axidma_v9_10/src"
+
+make -C ps7_cortexa9_0/libsrc/axidma_v9_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+tfiles -g -Wall -Wextra"
+
+"Compiling axidma"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+ -nostartfiles -g -Wall -Wextra"
+
+"Compiling coresightps_dcc"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra"
+
+"Compiling cpu_cortexa9"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+iles -g -Wall -Wextra"
+
+"Compiling ddrps"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+"Compiling devcfg"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+iles -g -Wall -Wextra"
+
+"Compiling dmaps"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+tfiles -g -Wall -Wextra"
+
+"Compiling emacps"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+"Compiling gpiops"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/lwip211_v1_1/src"
+
+make -C ps7_cortexa9_0/libsrc/lwip211_v1_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+tfiles -g -Wall -Wextra"
+
+"Compiling lwip src and adapter files"
+
+In file included from ../../../include/xemacps.h:347,
+                 from ../../../include/netif/xemacpsif.h:56,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:37:
+contrib/ports/xilinx/netif/xemacpsif_dma.c: In function 'init_dma':
+../../../include/xemacps_hw.h:613:23: warning: 'bdrxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define XEmacPs_Out32 Xil_Out32
+                       ^~~~~~~~~
+contrib/ports/xilinx/netif/xemacpsif_dma.c:561:14: note: 'bdrxterminate' was declared here
+  XEmacPs_Bd *bdrxterminate;
+              ^~~~~~~~~~~~~
+In file included from ../../../include/xemacps.h:348,
+                 from ../../../include/netif/xemacpsif.h:56,
+                 from contrib/ports/xilinx/netif/xemacpsif_dma.c:37:
+../../../include/xemacps_bd.h:140:12: warning: 'bdtxterminate' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  (*(u32 *)((UINTPTR)((void*)(BaseAddress)) + (u32)(Offset)))
+            ^
+contrib/ports/xilinx/netif/xemacpsif_dma.c:560:14: note: 'bdtxterminate' was declared here
+  XEmacPs_Bd *bdtxterminate;
+              ^~~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+"Compiling qspips"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+"Compiling scugic"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+rtfiles -g -Wall -Wextra"
+
+"Compiling scutimer"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+"Compiling scuwdt"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/spi_v4_5/src"
+
+make -C ps7_cortexa9_0/libsrc/spi_v4_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARCH
+IVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfil
+es -g -Wall -Wextra"
+
+"Compiling spi"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra"
+
+"Compiling standalone"
+
+In file included from usleep.c:54:
+xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:52:
+xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:47:
+xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:51:
+xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+"Compiling uartps"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+"Compiling xadcps"
+
+"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+"Compiling XilFFs Library"
+
+diskio.c: In function 'disk_read':
+diskio.c:340:9: warning: unused parameter 'buff' [-Wunused-parameter]
+   BYTE *buff, /* Pointer to the data buffer to store read data */
+   ~~~~~~^~~~
+diskio.c:341:9: warning: unused parameter 'sector' [-Wunused-parameter]
+   DWORD sector, /* Start sector number (LBA) */
+   ~~~~~~^~~~~~
+diskio.c: In function 'disk_ioctl':
+diskio.c:384:7: warning: unused parameter 'pdrv' [-Wunused-parameter]
+  BYTE pdrv,    /* Physical drive number (0) */
+  ~~~~~^~~~
+diskio.c:385:7: warning: unused parameter 'cmd' [-Wunused-parameter]
+  BYTE cmd,    /* Control code */
+  ~~~~~^~~
+diskio.c:386:8: warning: unused parameter 'buff' [-Wunused-parameter]
+  void *buff    /* Buffer to send/receive control data */
+  ~~~~~~^~~~
+diskio.c: In function 'disk_write':
+diskio.c:486:14: warning: unused parameter 'buff' [-Wunused-parameter]
+  const BYTE *buff, /* Data to be written */
+  ~~~~~~~~~~~~^~~~
+diskio.c:487:8: warning: unused parameter 'sector' [-Wunused-parameter]
+  DWORD sector,  /* Sector address (LBA) */
+  ~~~~~~^~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
+
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+'Finished building libraries'
+
+19:12:03 **** Build of configuration Debug for project TFM_software_ethernet ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/ads1298r_api.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ads1298r_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/ads1298r_api.d" -MT"src/ads1298r_api.o" -o "src/ads1298r_api.o" "../src/ads1298r_api.c"
+'Finished building: ../src/ads1298r_api.c'
+' '
+'Building file: ../src/dma_api.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/dma_api.d" -MT"src/dma_api.o" -o "src/dma_api.o" "../src/dma_api.c"
+../src/dma_api.c:16:24: warning: 'GicConfig' defined but not used [-Wunused-variable]
+ static XScuGic_Config *GicConfig;
+                        ^~~~~~~~~
+'Finished building: ../src/dma_api.c'
+' '
+'Building file: ../src/echo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/echo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/echo.d" -MT"src/echo.o" -o "src/echo.o" "../src/echo.c"
+../src/echo.c: In function 'transfer_data':
+../src/echo.c:56:2: warning: implicit declaration of function 'xemacif_input'; did you mean 'netif_input'? [-Wimplicit-function-declaration]
+  xemacif_input(echo_netif);
+  ^~~~~~~~~~~~~
+  netif_input
+'Finished building: ../src/echo.c'
+' '
+'Building file: ../src/ethernet.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ethernet.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/ethernet.d" -MT"src/ethernet.o" -o "src/ethernet.o" "../src/ethernet.c"
+'Finished building: ../src/ethernet.c'
+' '
+'Building file: ../src/gic_api.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gic_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/gic_api.d" -MT"src/gic_api.o" -o "src/gic_api.o" "../src/gic_api.c"
+'Finished building: ../src/gic_api.c'
+' '
+'Building file: ../src/i2c_access.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/i2c_access.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/i2c_access.d" -MT"src/i2c_access.o" -o "src/i2c_access.o" "../src/i2c_access.c"
+'Finished building: ../src/i2c_access.c'
+' '
+'Building file: ../src/iic_phyreset.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic_phyreset.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/iic_phyreset.d" -MT"src/iic_phyreset.o" -o "src/iic_phyreset.o" "../src/iic_phyreset.c"
+'Finished building: ../src/iic_phyreset.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:30:
+C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_mb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building file: ../src/platform_ppc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_ppc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform_ppc.d" -MT"src/platform_ppc.o" -o "src/platform_ppc.o" "../src/platform_ppc.c"
+'Finished building: ../src/platform_ppc.c'
+' '
+'Building file: ../src/platform_zynq.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynq.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform_zynq.d" -MT"src/platform_zynq.o" -o "src/platform_zynq.o" "../src/platform_zynq.c"
+'Finished building: ../src/platform_zynq.c'
+' '
+'Building file: ../src/platform_zynqmp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform_zynqmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform_zynqmp.d" -MT"src/platform_zynqmp.o" -o "src/platform_zynqmp.o" "../src/platform_zynqmp.c"
+'Finished building: ../src/platform_zynqmp.c'
+' '
+'Building file: ../src/ps7_init.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps7_init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/ps7_init.d" -MT"src/ps7_init.o" -o "src/ps7_init.o" "../src/ps7_init.c"
+'Finished building: ../src/ps7_init.c'
+' '
+'Building file: ../src/sfp.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/sfp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/sfp.d" -MT"src/sfp.o" -o "src/sfp.o" "../src/sfp.c"
+'Finished building: ../src/sfp.c'
+' '
+'Building file: ../src/si5324.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/si5324.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/si5324.d" -MT"src/si5324.o" -o "src/si5324.o" "../src/si5324.c"
+'Finished building: ../src/si5324.c'
+' '
+'Building file: ../src/spi_api.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/spi_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/spi_api.d" -MT"src/spi_api.o" -o "src/spi_api.o" "../src/spi_api.c"
+'Finished building: ../src/spi_api.c'
+' '
+'Building target: TFM_software_ethernet.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bsplib/lib -o "TFM_software_ethernet.elf"  ./src/ads1298r_api.o ./src/dma_api.o ./src/echo.o ./src/ethernet.o ./src/gic_api.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/ps7_init.o ./src/sfp.o ./src/si5324.o ./src/spi_api.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe:../src/lscript.ld:27: syntax error
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile:43: TFM_software_ethernet.elf] Error 1
+make: *** [makefile:34: all] Error 2
+19:12:12 **** Build of configuration Debug for project TFM_software_ethernet_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 62334 C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm standalone_domain C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm --sys_config TFM_ZYNQ_4_wrapper --bif C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet_system/Debug/system.bif --bitstream C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit --elf C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet/Debug/TFM_software_ethernet.elf,ps7_cortexa9_0
+ELF does not exist: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet/Debug/TFM_software_ethernet.elf
+make: *** [makefile:37: sd_card] Error 1
+Nothing to build in platform 'TFM_ZYNQ_4_wrapper'
+
+19:13:31 **** Incremental Build of configuration Debug for project TFM_software_ethernet ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building target: TFM_software_ethernet.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bsplib/lib -o "TFM_software_ethernet.elf"  ./src/ads1298r_api.o ./src/dma_api.o ./src/echo.o ./src/ethernet.o ./src/gic_api.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/ps7_init.o ./src/sfp.o ./src/si5324.o ./src/spi_api.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+c:/xilinx/vitis/2019.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe:../src/lscript.ld:27: syntax error
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile:43: TFM_software_ethernet.elf] Error 1
+make: *** [makefile:34: all] Error 2
+19:13:33 **** Incremental Build of configuration Debug for project TFM_software_ethernet_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 62334 C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm standalone_domain C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm --sys_config TFM_ZYNQ_4_wrapper --bif C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet_system/Debug/system.bif --bitstream C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit --elf C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet/Debug/TFM_software_ethernet.elf,ps7_cortexa9_0
+ELF does not exist: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet/Debug/TFM_software_ethernet.elf
+make: *** [makefile:37: sd_card] Error 1
+Nothing to build in platform 'TFM_ZYNQ_4_wrapper'
+
+19:17:08 **** Incremental Build of configuration Debug for project TFM_software_ethernet ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building target: TFM_software_ethernet.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bsplib/lib -o "TFM_software_ethernet.elf"  ./src/ads1298r_api.o ./src/dma_api.o ./src/echo.o ./src/ethernet.o ./src/gic_api.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/ps7_init.o ./src/sfp.o ./src/si5324.o ./src/spi_api.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TFM_software_ethernet.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size TFM_software_ethernet.elf  |tee "TFM_software_ethernet.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 148576	  13464	5364000	5526040	 545218	TFM_software_ethernet.elf
+'Finished building: TFM_software_ethernet.elf.size'
+' '
+19:17:18 **** Incremental Build of configuration Debug for project TFM_software_ethernet_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 62334 C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm standalone_domain C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm --sys_config TFM_ZYNQ_4_wrapper --bif C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet_system/Debug/system.bif --bitstream C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit --elf C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet/Debug/TFM_software_ethernet.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+Running C:/Xilinx/Vitis/2019.2/bin/bootgen  -image C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_software_ethernet_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN

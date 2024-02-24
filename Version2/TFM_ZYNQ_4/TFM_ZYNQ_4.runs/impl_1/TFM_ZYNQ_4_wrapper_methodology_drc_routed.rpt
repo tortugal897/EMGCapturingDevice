@@ -1,0 +1,464 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue May 30 20:06:29 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file TFM_ZYNQ_4_wrapper_methodology_drc_routed.rpt -pb TFM_ZYNQ_4_wrapper_methodology_drc_routed.pb -rpx TFM_ZYNQ_4_wrapper_methodology_drc_routed.rpx
+| Design       : TFM_ZYNQ_4_wrapper
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Fully Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 85
++-----------+------------------+-------------------------------------------------+------------+
+| Rule      | Severity         | Description                                     | Violations |
++-----------+------------------+-------------------------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                     | 37         |
+| LUTAR-1   | Warning          | LUT drives async reset alert                    | 7          |
+| PDRC-190  | Warning          | Suboptimally placed synchronized register chain | 11         |
+| TIMING-16 | Warning          | Large setup violation                           | 26         |
+| TIMING-18 | Warning          | Missing input or output delay                   | 4          |
++-----------+------------------+-------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/bit_cnt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/bit_cnt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/bit_cnt_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/bit_cnt_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/bit_cnt_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/cnt_endclks_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/cnt_endclks_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/cnt_endclks_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/en_count_bit_delay_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/frame_cnt_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/frame_cnt_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/frame_cnt_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/frame_cnt_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Critical Warning
+Non-clocked sequential cell  
+The clock pin TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/tx_buff_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/cnt_endclks[2]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/cnt_endclks_reg[0]/CLR, TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/cnt_endclks_reg[1]/CLR, TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/cnt_endclks_reg[2]/CLR. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#2 Warning
+LUT drives async reset alert  
+LUT cell TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/gc0.count_d1[4]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i_reg/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[0]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[1]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[2]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[3]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[4]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[1]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[2]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[3]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[4]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[0]/PRE, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[0]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[1]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_BURSTS.cmd_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[2]/CLR (the first 15 of 32 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#3 Warning
+LUT drives async reset alert  
+LUT cell TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/gc0.count_d1[4]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_fb_i_reg/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwss.wsts/ram_full_i_reg/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[0]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[1]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[2]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[3]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_d1_reg[4]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[1]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[2]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[3]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[4]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/wpntr/gcc0.gc0.count_reg[0]/PRE, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[0]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[1]/CLR, TFM_ZYNQ_4_i/axi_mem_intercon/s00_couplers/auto_pc/inst/gen_axi4_axi3.axi3_conv_inst/USE_WRITE.write_addr_inst/USE_B_CHANNEL.cmd_b_queue/inst/fifo_gen_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/gc0.count_d1_reg[2]/CLR (the first 15 of 32 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#4 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[2].rrst_inst/ngwrdrst.grst.g7serrst.rd_rst_reg[2]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[0]/PRE, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[1]/PRE, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[2]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#5 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[2].wrst_inst/ngwrdrst.grst.g7serrst.wr_rst_reg[2]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[0]/PRE, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]/PRE, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[2]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#6 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[2].rrst_inst/ngwrdrst.grst.g7serrst.rd_rst_reg[2]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[0]/PRE, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[1]/PRE, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.rd_rst_reg_reg[2]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+LUTAR-1#7 Warning
+LUT drives async reset alert  
+LUT cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.gwrrd_rst_sync_stage[2].wrst_inst/ngwrdrst.grst.g7serrst.wr_rst_reg[2]_i_1, with 2 or more inputs, drives asynchronous preset/clear pin(s) dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[0]/PRE, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]/PRE, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/ngwrdrst.grst.g7serrst.wr_rst_reg_reg[2]/PRE. The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
+Related violations: <none>
+
+PDRC-190#1 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell TFM_ZYNQ_4_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.CLK_CROSS_I/LOGIC_GENERATION_CDC.RX_FIFO_RST_AX2S_1/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to in site SLICE_X25Y50 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell TFM_ZYNQ_4_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.CLK_CROSS_I/LOGIC_GENERATION_CDC.RX_FIFO_RST_AX2S_1_CDC_1 is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#2 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_reg[0] in site SLICE_X31Y30 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_1_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#3 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_reg[1] in site SLICE_X29Y30 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_1_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#4 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_reg[2] in site SLICE_X30Y31 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_1_reg[2] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#5 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_reg[3] in site SLICE_X27Y29 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD2/stat_reg_1_reg[3] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#6 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_reg[0] in site SLICE_X32Y27 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_1_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#7 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_reg[1] in site SLICE_X35Y27 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_1_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#8 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_reg[2] in site SLICE_X33Y27 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD3/stat_reg_1_reg[2] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#9 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_reg[0] in site SLICE_X34Y28 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_1_reg[0] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#10 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_reg[1] in site SLICE_X29Y32 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_1_reg[1] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+PDRC-190#11 Warning
+Suboptimally placed synchronized register chain  
+The FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_reg[2] in site SLICE_X28Y31 is part of a synchronized register chain that is suboptimally placed as the load FDRE cell dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_STAT/stat_reg_1_reg[2] is not placed in the same (SLICE) site.
+Related violations: <none>
+
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -2.725 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/flag_reg/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -2.781 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rdy_reg/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -2.793 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[17]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -2.796 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[14]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -2.797 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[19]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -2.803 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[5]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -2.811 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[2]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -2.819 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[22]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -2.843 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[13]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -2.845 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[11]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -2.848 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[0]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -2.851 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[15]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -2.861 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[16]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -2.867 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[10]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -2.916 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[21]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -2.917 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[8]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -2.939 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[7]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -2.944 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[9]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -2.949 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[4]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -2.954 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[6]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -2.966 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[12]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -2.967 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[20]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -2.991 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[1]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -2.993 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[23]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -3.001 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[18]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -3.003 ns between TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/clk_4Mz_reg/C (clocked by pllclk0) and TFM_ZYNQ_4_i/ads_spi_ctrl_top_0/U0/spi_ctrl_top_v1_0_S00_AXI_inst/SPICtrl/RDataC/dout_rcv_reg[3]/D (clocked by clk_fpga_0). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on SPI_MISO relative to clock(s) clk_fpga_1
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on SPI_MOSI relative to clock(s) clk_fpga_0, clk_fpga_1
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on SPI_SCK relative to clock(s) clk_fpga_0, clk_fpga_1
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on SPI_SS relative to clock(s) clk_fpga_0, clk_fpga_1
+Related violations: <none>
+
+

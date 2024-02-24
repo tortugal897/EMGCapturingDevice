@@ -1,0 +1,7 @@
+/*TFM_ZYNQ_4_wrapper*/
+the_ROM_image:
+{
+ [bootloader] <TFM_ZYNQ_4_wrapper/boot/fsbl.elf>
+ <bitstream>
+ <elf,ps7_cortexa9_0>
+}

@@ -1,0 +1,20 @@
+2024-02-15T19:17:08.431824300255-19:17:08 **** Incremental Build of configuration Debug for project TFM_software_ethernet ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building target: TFM_software_ethernet.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bsplib/lib -o "TFM_software_ethernet.elf"  ./src/ads1298r_api.o ./src/dma_api.o ./src/echo.o ./src/ethernet.o ./src/gic_api.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/ps7_init.o ./src/sfp.o ./src/si5324.o ./src/spi_api.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: TFM_software_ethernet.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size TFM_software_ethernet.elf  |tee "TFM_software_ethernet.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 148576	  13464	5364000	5526040	 545218	TFM_software_ethernet.elf
+000-'Finished building: TFM_software_ethernet.elf.size'
+000-' '
+00255-
+19:17:15 Build Finished (took 7s.531ms)
+

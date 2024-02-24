@@ -1,0 +1,41 @@
+13:13:30 **** Incremental Build of configuration Debug for project TFM_ZINQ ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZINQ/zynq_swr/TFM_ZYNQ_wrapper/export/TFM_ZYNQ_wrapper/sw/TFM_ZYNQ_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:18:
+C:/Users/victo/Desktop/TFM/Zynq/TFM_ZINQ/zynq_swr/TFM_ZYNQ_wrapper/export/TFM_ZYNQ_wrapper/sw/TFM_ZYNQ_wrapper/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:190:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("%.4f\t", (5*(float)(datach1))/(6*((1<<23)-1)));
+    ^~~~~~
+../src/main.c:190:4: warning: incompatible implicit declaration of built-in function 'printf'
+../src/main.c:190:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main.c:19:1:
++#include <stdio.h>
+ 
+../src/main.c:190:4:
+    printf("%.4f\t", (5*(float)(datach1))/(6*((1<<23)-1)));
+    ^~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: TFM_ZINQ.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/victo/Desktop/TFM/Zynq/TFM_ZINQ/zynq_swr/TFM_ZYNQ_wrapper/export/TFM_ZYNQ_wrapper/sw/TFM_ZYNQ_wrapper/standalone_domain/bsplib/lib -o "TFM_ZINQ.elf"  ./src/ads1298r_api.o ./src/gic_api.o ./src/main.o ./src/spi_api.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: TFM_ZINQ.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size TFM_ZINQ.elf  |tee "TFM_ZINQ.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  68240	   3368	  23376	  94984	  17308	TFM_ZINQ.elf
+'Finished building: TFM_ZINQ.elf.size'
+' '
+
+13:13:32 Build Finished (took 1s.831ms)
+

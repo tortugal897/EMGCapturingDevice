@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/TFM_ZYNQ_4.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1589fs"></ZoomEndTime>
+      <Cursor1Time time="1024fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="253"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="TFM_ZYNQ_4_i/ads_spi_ctrl_top_0_M00_AXIS_TREADY" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">TFM_ZYNQ_4_i/ads_spi_ctrl_top_0_M00_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">ads_spi_ctrl_top_0_M00_AXIS_TREADY</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TFM_ZYNQ_4_i/ads_spi_ctrl_top_0_M00_AXIS_TDATA" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">TFM_ZYNQ_4_i/ads_spi_ctrl_top_0_M00_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ads_spi_ctrl_top_0_M00_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TFM_ZYNQ_4_i/ads_spi_ctrl_top_0_M00_AXIS_TSTRB" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">TFM_ZYNQ_4_i/ads_spi_ctrl_top_0_M00_AXIS_TSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ads_spi_ctrl_top_0_M00_AXIS_TSTRB[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TFM_ZYNQ_4_i/ads_spi_ctrl_top_0_M00_AXIS_TVALID" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">TFM_ZYNQ_4_i/ads_spi_ctrl_top_0_M00_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">ads_spi_ctrl_top_0_M00_AXIS_TVALID</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TFM_ZYNQ_4_i/ads_spi_ctrl_top_0_M00_AXIS_TLAST" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">TFM_ZYNQ_4_i/ads_spi_ctrl_top_0_M00_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">ads_spi_ctrl_top_0_M00_AXIS_TLAST</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TFM_ZYNQ_4_i/probe5" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">TFM_ZYNQ_4_i/probe5</obj_property>
+      <obj_property name="ObjectShortName">probe5</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TFM_ZYNQ_4_i/probe6" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">TFM_ZYNQ_4_i/probe6[3:0]</obj_property>
+      <obj_property name="ObjectShortName">probe6[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TFM_ZYNQ_4_i/probe7" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">TFM_ZYNQ_4_i/probe7</obj_property>
+      <obj_property name="ObjectShortName">probe7</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="TFM_ZYNQ_4_i/probe8" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">TFM_ZYNQ_4_i/probe8</obj_property>
+      <obj_property name="ObjectShortName">probe8</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

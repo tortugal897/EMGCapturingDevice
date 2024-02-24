@@ -1,0 +1,990 @@
+TRACE::2023-05-26.17:19:02::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-05-26.17:19:02::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_1
+TRACE::2023-05-26.17:19:02::SCWBifWriter::bitstream found in the design
+TRACE::2023-05-26.17:19:02::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-05-26.17:19:02::SCWBifWriter::proc type : 
+TRACE::2023-05-26.17:19:02::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-05-26.17:19:02::SCWBifWriter::Device type is : zynq
+TRACE::2023-05-26.17:19:02::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-05-26.17:19:02::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-05-26.17:20:23::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-05-26.17:20:24::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_1
+TRACE::2023-05-26.17:20:24::SCWBifWriter::bitstream found in the design
+TRACE::2023-05-26.17:20:24::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-05-26.17:20:24::SCWBifWriter::proc type : 
+TRACE::2023-05-26.17:20:24::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-05-26.17:20:24::SCWBifWriter::Device type is : zynq
+TRACE::2023-05-26.17:20:24::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-05-26.17:20:24::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-05-26.17:22:37::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-05-26.17:22:37::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_1
+TRACE::2023-05-26.17:22:37::SCWBifWriter::bitstream found in the design
+TRACE::2023-05-26.17:22:37::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-05-26.17:22:37::SCWBifWriter::proc type : 
+TRACE::2023-05-26.17:22:37::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-05-26.17:22:37::SCWBifWriter::Device type is : zynq
+TRACE::2023-05-26.17:22:37::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-05-26.17:22:37::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-05-26.17:23:03::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-05-26.17:23:03::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_1
+TRACE::2023-05-26.17:23:03::SCWBifWriter::bitstream found in the design
+TRACE::2023-05-26.17:23:03::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-05-26.17:23:03::SCWBifWriter::proc type : 
+TRACE::2023-05-26.17:23:03::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-05-26.17:23:03::SCWBifWriter::Device type is : zynq
+TRACE::2023-05-26.17:23:03::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-05-26.17:23:03::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-05-30.19:38:33::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-05-30.19:38:34::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_5
+TRACE::2023-05-30.19:38:34::SCWBifWriter::bitstream found in the design
+TRACE::2023-05-30.19:38:34::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-05-30.19:38:34::SCWBifWriter::proc type : 
+TRACE::2023-05-30.19:38:34::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-05-30.19:38:34::SCWBifWriter::Device type is : zynq
+TRACE::2023-05-30.19:38:34::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-05-30.19:38:34::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-05-30.20:12:05::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-05-30.20:12:05::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_9
+TRACE::2023-05-30.20:12:05::SCWBifWriter::bitstream found in the design
+TRACE::2023-05-30.20:12:05::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-05-30.20:12:05::SCWBifWriter::proc type : 
+TRACE::2023-05-30.20:12:05::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-05-30.20:12:05::SCWBifWriter::Device type is : zynq
+TRACE::2023-05-30.20:12:05::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-05-30.20:12:05::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.22:19:31::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.22:19:31::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-01.22:19:31::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.22:19:31::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.22:19:31::SCWBifWriter::proc type : 
+TRACE::2023-06-01.22:19:31::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.22:19:31::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.22:19:31::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.22:19:31::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.22:51:59::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.22:51:59::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_2
+TRACE::2023-06-01.22:51:59::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.22:51:59::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.22:51:59::SCWBifWriter::proc type : 
+TRACE::2023-06-01.22:51:59::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.22:51:59::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.22:51:59::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.22:51:59::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.22:52:21::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.22:52:21::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_2
+TRACE::2023-06-01.22:52:21::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.22:52:21::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.22:52:21::SCWBifWriter::proc type : 
+TRACE::2023-06-01.22:52:21::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.22:52:21::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.22:52:21::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.22:52:21::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.22:54:57::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.22:54:57::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_3
+TRACE::2023-06-01.22:54:57::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.22:54:57::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.22:54:57::SCWBifWriter::proc type : 
+TRACE::2023-06-01.22:54:57::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.22:54:57::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.22:54:57::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.22:54:57::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.22:56:09::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.22:56:09::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_3
+TRACE::2023-06-01.22:56:09::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.22:56:09::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.22:56:09::SCWBifWriter::proc type : 
+TRACE::2023-06-01.22:56:09::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.22:56:09::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.22:56:09::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.22:56:09::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.22:56:29::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.22:56:29::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_3
+TRACE::2023-06-01.22:56:29::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.22:56:29::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.22:56:29::SCWBifWriter::proc type : 
+TRACE::2023-06-01.22:56:29::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.22:56:29::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.22:56:29::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.22:56:29::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.22:57:19::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.22:57:19::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_3
+TRACE::2023-06-01.22:57:19::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.22:57:19::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.22:57:19::SCWBifWriter::proc type : 
+TRACE::2023-06-01.22:57:19::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.22:57:19::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.22:57:19::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.22:57:19::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:05:08::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:05:08::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_4
+TRACE::2023-06-01.23:05:08::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:05:08::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:05:08::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:05:08::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:05:08::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:05:08::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:05:08::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:25:41::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:25:41::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_5
+TRACE::2023-06-01.23:25:41::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:25:41::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:25:41::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:25:41::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:25:41::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:25:41::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:25:41::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:26:53::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:26:53::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_5
+TRACE::2023-06-01.23:26:53::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:26:53::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:26:53::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:26:53::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:26:53::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:26:53::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:26:53::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:27:32::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:27:32::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_5
+TRACE::2023-06-01.23:27:32::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:27:32::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:27:32::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:27:32::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:27:32::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:27:32::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:27:32::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:28:29::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:28:29::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_5
+TRACE::2023-06-01.23:28:29::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:28:29::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:28:29::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:28:29::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:28:29::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:28:29::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:28:29::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:32:46::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:32:46::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_6
+TRACE::2023-06-01.23:32:46::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:32:46::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:32:46::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:32:46::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:32:46::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:32:46::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:32:46::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:36:10::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:36:10::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_7
+TRACE::2023-06-01.23:36:10::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:36:10::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:36:10::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:36:10::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:36:10::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:36:10::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:36:10::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:40:28::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:40:28::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_8
+TRACE::2023-06-01.23:40:28::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:40:28::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:40:28::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:40:28::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:40:28::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:40:28::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:40:28::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:41:34::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:41:34::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_9
+TRACE::2023-06-01.23:41:34::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:41:34::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:41:34::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:41:34::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:41:34::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:41:34::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:41:34::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:44:50::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:44:50::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_10
+TRACE::2023-06-01.23:44:50::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:44:50::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:44:50::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:44:50::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:44:50::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:44:50::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:44:50::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:50:10::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:50:10::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_11
+TRACE::2023-06-01.23:50:10::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:50:10::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:50:10::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:50:10::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:50:10::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:50:10::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:50:10::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:50:51::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:50:51::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_11
+TRACE::2023-06-01.23:50:51::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:50:51::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:50:51::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:50:51::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:50:51::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:50:51::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:50:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:51:59::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:51:59::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_11
+TRACE::2023-06-01.23:51:59::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:51:59::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:51:59::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:51:59::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:51:59::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:51:59::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:51:59::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:53:25::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:53:26::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_11
+TRACE::2023-06-01.23:53:26::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:53:26::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:53:26::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:53:26::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:53:26::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:53:26::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:53:26::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-01.23:57:30::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-01.23:57:31::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_12
+TRACE::2023-06-01.23:57:31::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-01.23:57:31::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-01.23:57:31::SCWBifWriter::proc type : 
+TRACE::2023-06-01.23:57:31::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-01.23:57:31::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-01.23:57:31::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-01.23:57:31::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.00:04:31::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.00:04:31::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_14
+TRACE::2023-06-02.00:04:31::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.00:04:31::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.00:04:31::SCWBifWriter::proc type : 
+TRACE::2023-06-02.00:04:31::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.00:04:31::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.00:04:31::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.00:04:31::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.00:24:38::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.00:24:39::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_16
+TRACE::2023-06-02.00:24:39::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.00:24:39::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.00:24:39::SCWBifWriter::proc type : 
+TRACE::2023-06-02.00:24:39::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.00:24:39::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.00:24:39::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.00:24:39::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.00:25:45::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.00:25:45::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_17
+TRACE::2023-06-02.00:25:45::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.00:25:45::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.00:25:45::SCWBifWriter::proc type : 
+TRACE::2023-06-02.00:25:45::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.00:25:45::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.00:25:45::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.00:25:45::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.00:26:39::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.00:26:39::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_18
+TRACE::2023-06-02.00:26:39::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.00:26:39::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.00:26:39::SCWBifWriter::proc type : 
+TRACE::2023-06-02.00:26:39::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.00:26:39::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.00:26:39::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.00:26:39::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.00:34:00::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.00:34:00::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_20
+TRACE::2023-06-02.00:34:00::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.00:34:00::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.00:34:00::SCWBifWriter::proc type : 
+TRACE::2023-06-02.00:34:00::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.00:34:00::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.00:34:00::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.00:34:00::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.00:38:28::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.00:38:28::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_21
+TRACE::2023-06-02.00:38:28::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.00:38:28::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.00:38:28::SCWBifWriter::proc type : 
+TRACE::2023-06-02.00:38:28::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.00:38:28::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.00:38:28::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.00:38:28::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.17:37:38::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.17:37:38::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-02.17:37:38::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.17:37:38::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.17:37:38::SCWBifWriter::proc type : 
+TRACE::2023-06-02.17:37:38::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.17:37:38::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.17:37:38::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.17:37:38::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.17:39:27::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.17:39:27::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-02.17:39:27::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.17:39:27::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.17:39:27::SCWBifWriter::proc type : 
+TRACE::2023-06-02.17:39:27::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.17:39:27::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.17:39:27::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.17:39:27::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.17:41:33::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.17:41:33::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-02.17:41:33::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.17:41:33::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.17:41:33::SCWBifWriter::proc type : 
+TRACE::2023-06-02.17:41:33::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.17:41:33::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.17:41:33::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.17:41:33::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.17:43:16::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.17:43:16::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-02.17:43:16::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.17:43:16::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.17:43:16::SCWBifWriter::proc type : 
+TRACE::2023-06-02.17:43:16::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.17:43:16::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.17:43:16::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.17:43:16::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.18:00:34::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.18:00:34::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_2
+TRACE::2023-06-02.18:00:34::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.18:00:34::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.18:00:34::SCWBifWriter::proc type : 
+TRACE::2023-06-02.18:00:34::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.18:00:34::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.18:00:34::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.18:00:34::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.18:00:46::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.18:00:46::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_2
+TRACE::2023-06-02.18:00:46::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.18:00:46::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.18:00:46::SCWBifWriter::proc type : 
+TRACE::2023-06-02.18:00:46::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.18:00:46::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.18:00:46::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.18:00:46::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-02.18:01:37::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-02.18:01:37::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_2
+TRACE::2023-06-02.18:01:37::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-02.18:01:37::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-02.18:01:37::SCWBifWriter::proc type : 
+TRACE::2023-06-02.18:01:37::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-02.18:01:37::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-02.18:01:37::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-02.18:01:37::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-05.20:22:08::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-05.20:22:08::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-05.20:22:08::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-05.20:22:08::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-05.20:22:08::SCWBifWriter::proc type : 
+TRACE::2023-06-05.20:22:08::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-05.20:22:08::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-05.20:22:08::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-05.20:22:08::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-05.20:37:37::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-05.20:37:37::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_9
+TRACE::2023-06-05.20:37:37::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-05.20:37:37::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-05.20:37:37::SCWBifWriter::proc type : 
+TRACE::2023-06-05.20:37:37::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-05.20:37:37::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-05.20:37:37::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-05.20:37:37::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-05.20:38:49::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-05.20:38:50::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_10
+TRACE::2023-06-05.20:38:50::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-05.20:38:50::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-05.20:38:50::SCWBifWriter::proc type : 
+TRACE::2023-06-05.20:38:50::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-05.20:38:50::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-05.20:38:50::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-05.20:38:50::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-05.21:21:34::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-05.21:21:35::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_11
+TRACE::2023-06-05.21:21:35::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-05.21:21:35::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-05.21:21:35::SCWBifWriter::proc type : 
+TRACE::2023-06-05.21:21:35::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-05.21:21:35::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-05.21:21:35::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-05.21:21:35::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-05.21:21:53::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-05.21:21:53::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_11
+TRACE::2023-06-05.21:21:53::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-05.21:21:53::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-05.21:21:53::SCWBifWriter::proc type : 
+TRACE::2023-06-05.21:21:53::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-05.21:21:53::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-05.21:21:53::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-05.21:21:53::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-06.22:54:52::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-06.22:54:52::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-06.22:54:52::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-06.22:54:52::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-06.22:54:52::SCWBifWriter::proc type : 
+TRACE::2023-06-06.22:54:52::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-06.22:54:52::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-06.22:54:52::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-06.22:54:53::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-06.22:57:09::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-06.22:57:09::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-06.22:57:09::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-06.22:57:09::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-06.22:57:09::SCWBifWriter::proc type : 
+TRACE::2023-06-06.22:57:09::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-06.22:57:09::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-06.22:57:09::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-06.22:57:09::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-06.22:57:51::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-06.22:57:51::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-06.22:57:51::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-06.22:57:51::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-06.22:57:51::SCWBifWriter::proc type : 
+TRACE::2023-06-06.22:57:51::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-06.22:57:51::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-06.22:57:51::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-06.22:57:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-06.22:59:26::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-06.22:59:26::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-06.22:59:26::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-06.22:59:26::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-06.22:59:26::SCWBifWriter::proc type : 
+TRACE::2023-06-06.22:59:26::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-06.22:59:26::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-06.22:59:26::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-06.22:59:26::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-06.23:05:44::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-06.23:05:44::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_0
+TRACE::2023-06-06.23:05:44::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-06.23:05:44::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-06.23:05:44::SCWBifWriter::proc type : 
+TRACE::2023-06-06.23:05:44::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-06.23:05:44::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-06.23:05:44::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-06.23:05:44::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-06.23:08:40::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-06.23:08:40::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_1
+TRACE::2023-06-06.23:08:40::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-06.23:08:40::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-06.23:08:40::SCWBifWriter::proc type : 
+TRACE::2023-06-06.23:08:40::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-06.23:08:40::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-06.23:08:40::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-06.23:08:40::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:01:14::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:01:14::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-07.21:01:14::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:01:14::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:01:14::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:01:14::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:01:14::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:01:14::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:01:14::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:08:04::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:08:05::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_0
+TRACE::2023-06-07.21:08:05::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:08:05::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:08:05::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:08:05::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:08:05::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:08:05::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:08:05::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:11:06::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:11:06::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_3
+TRACE::2023-06-07.21:11:06::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:11:06::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:11:06::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:11:06::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:11:06::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:11:06::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:11:06::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:13:28::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:13:28::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_5
+TRACE::2023-06-07.21:13:28::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:13:28::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:13:28::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:13:28::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:13:28::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:13:28::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:13:28::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:14:44::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:14:44::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_6
+TRACE::2023-06-07.21:14:44::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:14:44::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:14:44::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:14:44::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:14:44::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:14:44::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:14:44::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:15:26::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:15:26::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_6
+TRACE::2023-06-07.21:15:26::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:15:26::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:15:26::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:15:26::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:15:26::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:15:26::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:15:26::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:21:24::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:21:25::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_8
+TRACE::2023-06-07.21:21:25::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:21:25::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:21:25::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:21:25::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:21:25::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:21:25::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:21:25::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:25:44::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:25:44::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_9
+TRACE::2023-06-07.21:25:44::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:25:44::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:25:44::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:25:44::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:25:44::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:25:44::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:25:44::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:28:35::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:28:35::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_10
+TRACE::2023-06-07.21:28:35::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:28:35::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:28:35::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:28:35::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:28:35::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:28:35::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:28:36::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:29:38::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:29:38::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_11
+TRACE::2023-06-07.21:29:38::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:29:38::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:29:38::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:29:38::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:29:38::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:29:38::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:29:38::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:29:58::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:29:58::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_11
+TRACE::2023-06-07.21:29:58::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:29:58::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:29:58::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:29:58::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:29:58::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:29:58::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:29:58::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:33:11::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:33:11::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_13
+TRACE::2023-06-07.21:33:11::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:33:11::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:33:11::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:33:11::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:33:11::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:33:11::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:33:11::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:41:29::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:41:30::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_14
+TRACE::2023-06-07.21:41:30::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:41:30::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:41:30::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:41:30::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:41:30::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:41:30::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:41:30::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:54:47::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:54:47::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_15
+TRACE::2023-06-07.21:54:47::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:54:47::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:54:47::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:54:47::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:54:47::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:54:47::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:54:47::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:57:21::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:57:21::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_16
+TRACE::2023-06-07.21:57:21::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:57:21::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:57:21::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:57:21::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:57:21::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:57:21::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:57:21::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.21:58:52::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.21:58:52::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_17
+TRACE::2023-06-07.21:58:52::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.21:58:52::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.21:58:52::SCWBifWriter::proc type : 
+TRACE::2023-06-07.21:58:52::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.21:58:52::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.21:58:52::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.21:58:52::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.22:01:00::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.22:01:00::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_18
+TRACE::2023-06-07.22:01:00::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.22:01:00::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.22:01:00::SCWBifWriter::proc type : 
+TRACE::2023-06-07.22:01:00::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.22:01:00::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.22:01:00::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.22:01:00::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.22:04:41::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.22:04:42::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_19
+TRACE::2023-06-07.22:04:42::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.22:04:42::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.22:04:42::SCWBifWriter::proc type : 
+TRACE::2023-06-07.22:04:42::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.22:04:42::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.22:04:42::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.22:04:42::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.22:06:31::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.22:06:31::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_21
+TRACE::2023-06-07.22:06:31::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.22:06:31::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.22:06:31::SCWBifWriter::proc type : 
+TRACE::2023-06-07.22:06:31::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.22:06:31::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.22:06:31::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.22:06:31::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.22:10:33::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.22:10:33::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_23
+TRACE::2023-06-07.22:10:33::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.22:10:33::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.22:10:33::SCWBifWriter::proc type : 
+TRACE::2023-06-07.22:10:33::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.22:10:33::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.22:10:33::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.22:10:33::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.22:16:29::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.22:16:29::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_26
+TRACE::2023-06-07.22:16:29::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.22:16:29::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.22:16:29::SCWBifWriter::proc type : 
+TRACE::2023-06-07.22:16:29::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.22:16:29::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.22:16:29::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.22:16:29::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.22:16:56::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.22:16:56::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_26
+TRACE::2023-06-07.22:16:56::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.22:16:56::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.22:16:56::SCWBifWriter::proc type : 
+TRACE::2023-06-07.22:16:56::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.22:16:56::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.22:16:56::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.22:16:56::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.22:18:11::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.22:18:11::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_27
+TRACE::2023-06-07.22:18:11::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.22:18:11::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.22:18:11::SCWBifWriter::proc type : 
+TRACE::2023-06-07.22:18:11::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.22:18:11::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.22:18:11::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.22:18:11::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.22:19:38::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.22:19:38::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_28
+TRACE::2023-06-07.22:19:38::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.22:19:38::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.22:19:38::SCWBifWriter::proc type : 
+TRACE::2023-06-07.22:19:38::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.22:19:38::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.22:19:38::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.22:19:38::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.22:20:30::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.22:20:30::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_28
+TRACE::2023-06-07.22:20:30::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.22:20:30::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.22:20:30::SCWBifWriter::proc type : 
+TRACE::2023-06-07.22:20:30::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.22:20:30::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.22:20:30::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.22:20:30::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.22:28:51::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.22:28:51::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_30
+TRACE::2023-06-07.22:28:51::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.22:28:51::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.22:28:51::SCWBifWriter::proc type : 
+TRACE::2023-06-07.22:28:51::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.22:28:51::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.22:28:51::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.22:28:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.22:31:57::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.22:31:57::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_34
+TRACE::2023-06-07.22:31:57::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.22:31:57::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.22:31:57::SCWBifWriter::proc type : 
+TRACE::2023-06-07.22:31:57::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.22:31:57::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.22:31:57::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.22:31:57::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-07.22:43:52::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-07.22:43:52::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_34
+TRACE::2023-06-07.22:43:52::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-07.22:43:52::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-07.22:43:52::SCWBifWriter::proc type : 
+TRACE::2023-06-07.22:43:52::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-07.22:43:52::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-07.22:43:52::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-07.22:43:52::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.18:44:37::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.18:44:37::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-08.18:44:37::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.18:44:37::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.18:44:37::SCWBifWriter::proc type : 
+TRACE::2023-06-08.18:44:37::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.18:44:37::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.18:44:37::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.18:44:37::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.18:45:01::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.18:45:01::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-08.18:45:01::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.18:45:01::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.18:45:01::SCWBifWriter::proc type : 
+TRACE::2023-06-08.18:45:01::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.18:45:01::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.18:45:01::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.18:45:01::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.18:55:51::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.18:55:51::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-08.18:55:51::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.18:55:51::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.18:55:51::SCWBifWriter::proc type : 
+TRACE::2023-06-08.18:55:51::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.18:55:51::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.18:55:51::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.18:55:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.19:03:01::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.19:03:01::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_2
+TRACE::2023-06-08.19:03:01::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.19:03:01::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.19:03:01::SCWBifWriter::proc type : 
+TRACE::2023-06-08.19:03:01::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.19:03:01::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.19:03:01::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.19:03:01::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.19:04:16::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.19:04:16::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_3
+TRACE::2023-06-08.19:04:16::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.19:04:16::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.19:04:16::SCWBifWriter::proc type : 
+TRACE::2023-06-08.19:04:16::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.19:04:16::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.19:04:16::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.19:04:16::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.19:06:56::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.19:06:57::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_4
+TRACE::2023-06-08.19:06:57::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.19:06:57::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.19:06:57::SCWBifWriter::proc type : 
+TRACE::2023-06-08.19:06:57::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.19:06:57::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.19:06:57::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.19:06:57::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.20:23:32::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.20:23:32::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_5
+TRACE::2023-06-08.20:23:32::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.20:23:32::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.20:23:32::SCWBifWriter::proc type : 
+TRACE::2023-06-08.20:23:32::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.20:23:32::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.20:23:32::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.20:23:32::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.20:24:51::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.20:24:51::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_5
+TRACE::2023-06-08.20:24:51::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.20:24:51::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.20:24:51::SCWBifWriter::proc type : 
+TRACE::2023-06-08.20:24:51::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.20:24:51::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.20:24:51::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.20:24:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.20:26:01::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.20:26:02::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_6
+TRACE::2023-06-08.20:26:02::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.20:26:02::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.20:26:02::SCWBifWriter::proc type : 
+TRACE::2023-06-08.20:26:02::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.20:26:02::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.20:26:02::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.20:26:02::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.20:45:32::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.20:45:32::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_8
+TRACE::2023-06-08.20:45:32::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.20:45:32::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.20:45:32::SCWBifWriter::proc type : 
+TRACE::2023-06-08.20:45:32::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.20:45:32::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.20:45:32::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.20:45:32::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.20:46:42::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.20:46:42::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_9
+TRACE::2023-06-08.20:46:42::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.20:46:42::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.20:46:42::SCWBifWriter::proc type : 
+TRACE::2023-06-08.20:46:42::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.20:46:42::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.20:46:42::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.20:46:42::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.21:07:48::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.21:07:48::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_10
+TRACE::2023-06-08.21:07:48::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.21:07:48::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.21:07:48::SCWBifWriter::proc type : 
+TRACE::2023-06-08.21:07:48::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.21:07:48::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.21:07:48::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.21:07:48::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.21:08:55::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.21:08:56::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_10
+TRACE::2023-06-08.21:08:56::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.21:08:56::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.21:08:56::SCWBifWriter::proc type : 
+TRACE::2023-06-08.21:08:56::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.21:08:56::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.21:08:56::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.21:08:56::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-08.21:20:02::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-08.21:20:02::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_12
+TRACE::2023-06-08.21:20:02::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-08.21:20:02::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-08.21:20:02::SCWBifWriter::proc type : 
+TRACE::2023-06-08.21:20:02::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-08.21:20:02::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-08.21:20:02::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-08.21:20:02::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-16.22:05:59::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-16.22:05:59::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-16.22:05:59::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-16.22:05:59::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-16.22:05:59::SCWBifWriter::proc type : 
+TRACE::2023-06-16.22:05:59::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-16.22:05:59::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-16.22:05:59::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-16.22:05:59::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-17.00:52:16::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-17.00:52:16::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_7
+TRACE::2023-06-17.00:52:16::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-17.00:52:16::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-17.00:52:16::SCWBifWriter::proc type : 
+TRACE::2023-06-17.00:52:16::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-17.00:52:16::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-17.00:52:16::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-17.00:52:16::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-17.01:08:15::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-17.01:08:16::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_10
+TRACE::2023-06-17.01:08:16::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-17.01:08:16::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-17.01:08:16::SCWBifWriter::proc type : 
+TRACE::2023-06-17.01:08:16::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-17.01:08:16::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-17.01:08:16::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-17.01:08:16::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-17.01:11:29::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-17.01:11:29::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_10
+TRACE::2023-06-17.01:11:29::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-17.01:11:29::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-17.01:11:29::SCWBifWriter::proc type : 
+TRACE::2023-06-17.01:11:29::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-17.01:11:29::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-17.01:11:29::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-17.01:11:29::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-21.21:17:51::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-21.21:17:51::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-21.21:17:51::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-21.21:17:51::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-21.21:17:51::SCWBifWriter::proc type : 
+TRACE::2023-06-21.21:17:51::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-21.21:17:51::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-21.21:17:51::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-21.21:17:51::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-22.21:10:31::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-22.21:10:31::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper
+TRACE::2023-06-22.21:10:31::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-22.21:10:31::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-22.21:10:31::SCWBifWriter::proc type : 
+TRACE::2023-06-22.21:10:31::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-22.21:10:31::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-22.21:10:31::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-22.21:10:31::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-22.21:21:11::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-22.21:21:12::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_0
+TRACE::2023-06-22.21:21:12::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-22.21:21:12::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-22.21:21:12::SCWBifWriter::proc type : 
+TRACE::2023-06-22.21:21:12::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-22.21:21:12::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-22.21:21:12::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-22.21:21:12::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-22.21:23:27::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-22.21:23:27::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_0
+TRACE::2023-06-22.21:23:27::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-22.21:23:27::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-22.21:23:27::SCWBifWriter::proc type : 
+TRACE::2023-06-22.21:23:27::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-22.21:23:27::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-22.21:23:27::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-22.21:23:27::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-22.21:39:36::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-22.21:39:36::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_1
+TRACE::2023-06-22.21:39:36::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-22.21:39:36::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-22.21:39:36::SCWBifWriter::proc type : 
+TRACE::2023-06-22.21:39:36::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-22.21:39:36::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-22.21:39:36::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-22.21:39:36::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-22.21:42:05::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-22.21:42:06::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_1
+TRACE::2023-06-22.21:42:06::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-22.21:42:06::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-22.21:42:06::SCWBifWriter::proc type : 
+TRACE::2023-06-22.21:42:06::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-22.21:42:06::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-22.21:42:06::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-22.21:42:06::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-22.21:54:29::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-22.21:54:29::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_2
+TRACE::2023-06-22.21:54:29::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-22.21:54:29::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-22.21:54:29::SCWBifWriter::proc type : 
+TRACE::2023-06-22.21:54:29::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-22.21:54:29::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-22.21:54:29::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-22.21:54:29::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-22.22:21:50::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-22.22:21:50::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_4
+TRACE::2023-06-22.22:21:50::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-22.22:21:50::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-22.22:21:50::SCWBifWriter::proc type : 
+TRACE::2023-06-22.22:21:50::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-22.22:21:50::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-22.22:21:50::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-22.22:21:50::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-22.22:22:45::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-22.22:22:45::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_4
+TRACE::2023-06-22.22:22:45::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-22.22:22:45::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-22.22:22:45::SCWBifWriter::proc type : 
+TRACE::2023-06-22.22:22:45::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-22.22:22:45::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-22.22:22:45::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-22.22:22:45::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-22.22:51:21::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-22.22:51:22::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_5
+TRACE::2023-06-22.22:51:22::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-22.22:51:22::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-22.22:51:22::SCWBifWriter::proc type : 
+TRACE::2023-06-22.22:51:22::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-22.22:51:22::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-22.22:51:22::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-22.22:51:22::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-22.23:13:03::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-22.23:13:04::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_6
+TRACE::2023-06-22.23:13:04::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-22.23:13:04::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-22.23:13:04::SCWBifWriter::proc type : 
+TRACE::2023-06-22.23:13:04::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-22.23:13:04::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-22.23:13:04::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-22.23:13:04::SCWBifWriter::Writing the Zynq Baremetal bif 
+TRACE::2023-06-22.23:34:17::SCWBifWriter::Found the complete platform C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/TFM_ZYNQ_4_wrapper.xpfm
+TRACE::2023-06-22.23:34:17::SCWBifWriter::hardware databse : TFM_ZYNQ_4_wrapper_7
+TRACE::2023-06-22.23:34:17::SCWBifWriter::bitstream found in the design
+TRACE::2023-06-22.23:34:17::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2023-06-22.23:34:17::SCWBifWriter::proc type : 
+TRACE::2023-06-22.23:34:17::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2023-06-22.23:34:17::SCWBifWriter::Device type is : zynq
+TRACE::2023-06-22.23:34:17::SCWBifWriter::Writing BIF to file : C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_4/software/software_TFM_system/Debug/system.bif
+TRACE::2023-06-22.23:34:17::SCWBifWriter::Writing the Zynq Baremetal bif 

@@ -1,0 +1,310 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue May 30 19:58:27 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 52) to (Rev. 53)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue May 30 19:22:15 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 51) to (Rev. 52)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri May 26 16:55:40 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 50) to (Rev. 51)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Wed May 17 20:55:48 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 49) to (Rev. 50)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri May 12 16:26:11 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 48) to (Rev. 49)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Wed May 10 18:56:15 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 47) to (Rev. 48)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Wed May 10 09:02:31 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 46) to (Rev. 47)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Wed May 10 08:44:22 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 45) to (Rev. 46)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Wed May 10 08:03:42 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 44) to (Rev. 45)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Wed May 10 00:03:48 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 38) to (Rev. 44)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue May  9 23:54:20 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 37) to (Rev. 38)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue May  9 23:27:16 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 36) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Tue May  2 17:34:47 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0 (Rev. 36)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Apr 20 23:18:50 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 35) to (Rev. 36)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Thu Apr 20 01:20:56 2023
+| Host         : DESKTOP-IJFGPI6 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'TFM_ZYNQ_4_ads_spi_ctrl_top_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of TFM_ZYNQ_4_ads_spi_ctrl_top_0_0 (urjc.es:user:ads_spi_ctrl_top:2.0) from (Rev. 34) to (Rev. 35)
+
