@@ -1230,3 +1230,1592 @@ con
 
 22:27:49 WARN  : channel "tcfchan#2" closed
 22:27:49 INFO  : Disconnected from the channel tcfchan#3.
+11:52:48 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\temp_xsdb_launch_script.tcl
+11:53:00 INFO  : XSCT server has started successfully.
+11:53:00 INFO  : plnx-install-location is set to ''
+11:53:00 INFO  : Successfully done setting XSCT server connection channel  
+11:53:00 INFO  : Successfully done setting workspace for the tool. 
+11:53:01 INFO  : Registering command handlers for Vitis TCF services
+11:53:09 INFO  : Successfully done query RDI_DATADIR 
+17:14:22 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\temp_xsdb_launch_script.tcl
+17:14:33 INFO  : XSCT server has started successfully.
+17:14:33 INFO  : plnx-install-location is set to ''
+17:14:33 INFO  : Successfully done setting XSCT server connection channel  
+17:14:34 INFO  : Registering command handlers for Vitis TCF services
+17:14:41 INFO  : Successfully done setting workspace for the tool. 
+17:14:41 INFO  : Successfully done query RDI_DATADIR 
+17:29:11 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+17:30:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:30:48 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+17:30:48 INFO  : 'jtag frequency' command is executed.
+17:30:48 INFO  : Context for 'APU' is selected.
+17:30:48 INFO  : System reset is completed.
+17:30:51 INFO  : 'after 3000' command is executed.
+17:30:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+17:30:53 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+17:30:53 INFO  : Context for 'APU' is selected.
+17:30:53 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+17:30:53 INFO  : 'configparams force-mem-access 1' command is executed.
+17:30:53 INFO  : Context for 'APU' is selected.
+17:30:53 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+17:30:54 INFO  : 'ps7_init' command is executed.
+17:30:54 INFO  : 'ps7_post_config' command is executed.
+17:30:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:30:54 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:30:54 INFO  : 'configparams force-mem-access 0' command is executed.
+17:30:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:30:54 INFO  : Memory regions updated for context APU
+17:30:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:30:54 INFO  : 'con' command is executed.
+17:30:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:30:54 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+17:32:46 INFO  : Disconnected from the channel tcfchan#3.
+17:32:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:32:48 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+17:32:48 INFO  : 'jtag frequency' command is executed.
+17:32:48 INFO  : Context for 'APU' is selected.
+17:32:48 INFO  : System reset is completed.
+17:32:51 INFO  : 'after 3000' command is executed.
+17:32:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+17:32:52 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+17:32:52 INFO  : Context for 'APU' is selected.
+17:32:52 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+17:32:52 INFO  : 'configparams force-mem-access 1' command is executed.
+17:32:52 INFO  : Context for 'APU' is selected.
+17:32:52 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+17:32:53 INFO  : 'ps7_init' command is executed.
+17:32:53 INFO  : 'ps7_post_config' command is executed.
+17:32:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:32:53 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:32:53 INFO  : 'configparams force-mem-access 0' command is executed.
+17:32:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:32:53 INFO  : Memory regions updated for context APU
+17:32:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:32:53 INFO  : 'con' command is executed.
+17:32:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:32:53 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+17:38:04 INFO  : Disconnected from the channel tcfchan#4.
+17:38:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:38:05 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+17:38:05 INFO  : 'jtag frequency' command is executed.
+17:38:05 INFO  : Context for 'APU' is selected.
+17:38:05 INFO  : System reset is completed.
+17:38:08 INFO  : 'after 3000' command is executed.
+17:38:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+17:38:10 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+17:38:10 INFO  : Context for 'APU' is selected.
+17:38:10 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+17:38:10 INFO  : 'configparams force-mem-access 1' command is executed.
+17:38:10 INFO  : Context for 'APU' is selected.
+17:38:10 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+17:38:10 INFO  : 'ps7_init' command is executed.
+17:38:10 INFO  : 'ps7_post_config' command is executed.
+17:38:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:38:11 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:38:11 INFO  : 'configparams force-mem-access 0' command is executed.
+17:38:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:38:11 INFO  : Memory regions updated for context APU
+17:38:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:38:11 INFO  : 'con' command is executed.
+17:38:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:38:11 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+17:45:46 INFO  : Disconnected from the channel tcfchan#5.
+17:45:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:45:47 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+17:45:47 INFO  : 'jtag frequency' command is executed.
+17:45:47 INFO  : Context for 'APU' is selected.
+17:45:47 INFO  : System reset is completed.
+17:45:50 INFO  : 'after 3000' command is executed.
+17:45:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+17:45:51 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+17:45:51 INFO  : Context for 'APU' is selected.
+17:45:51 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+17:45:51 INFO  : 'configparams force-mem-access 1' command is executed.
+17:45:51 INFO  : Context for 'APU' is selected.
+17:45:51 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+17:45:52 INFO  : 'ps7_init' command is executed.
+17:45:52 INFO  : 'ps7_post_config' command is executed.
+17:45:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:45:52 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:45:52 INFO  : 'configparams force-mem-access 0' command is executed.
+17:45:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:45:52 INFO  : Memory regions updated for context APU
+17:45:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:45:53 INFO  : 'con' command is executed.
+17:45:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:45:53 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+17:56:03 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+17:56:29 INFO  : Disconnected from the channel tcfchan#6.
+17:56:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:56:30 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+17:56:30 INFO  : 'jtag frequency' command is executed.
+17:56:30 INFO  : Context for 'APU' is selected.
+17:56:30 INFO  : System reset is completed.
+17:56:33 INFO  : 'after 3000' command is executed.
+17:56:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+17:56:34 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+17:56:34 INFO  : Context for 'APU' is selected.
+17:56:34 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+17:56:34 INFO  : 'configparams force-mem-access 1' command is executed.
+17:56:34 INFO  : Context for 'APU' is selected.
+17:56:34 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+17:56:35 INFO  : 'ps7_init' command is executed.
+17:56:35 INFO  : 'ps7_post_config' command is executed.
+17:56:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:56:35 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:56:35 INFO  : 'configparams force-mem-access 0' command is executed.
+17:56:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:56:35 INFO  : Memory regions updated for context APU
+17:56:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:56:36 INFO  : 'con' command is executed.
+17:56:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:56:36 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+17:57:13 INFO  : Disconnected from the channel tcfchan#8.
+17:57:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:57:14 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+17:57:14 INFO  : 'jtag frequency' command is executed.
+17:57:14 INFO  : Context for 'APU' is selected.
+17:57:15 INFO  : System reset is completed.
+17:57:18 INFO  : 'after 3000' command is executed.
+17:57:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+17:57:19 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+17:57:19 INFO  : Context for 'APU' is selected.
+17:57:19 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+17:57:19 INFO  : 'configparams force-mem-access 1' command is executed.
+17:57:19 INFO  : Context for 'APU' is selected.
+17:57:19 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+17:57:19 INFO  : 'ps7_init' command is executed.
+17:57:19 INFO  : 'ps7_post_config' command is executed.
+17:57:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:57:20 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:57:20 INFO  : 'configparams force-mem-access 0' command is executed.
+17:57:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:57:20 INFO  : Memory regions updated for context APU
+17:57:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:57:20 INFO  : 'con' command is executed.
+17:57:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:57:20 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+17:58:00 INFO  : Disconnected from the channel tcfchan#9.
+17:58:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:58:02 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+17:58:02 INFO  : 'jtag frequency' command is executed.
+17:58:02 INFO  : Context for 'APU' is selected.
+17:58:02 INFO  : System reset is completed.
+17:58:05 INFO  : 'after 3000' command is executed.
+17:58:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+17:58:06 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+17:58:06 INFO  : Context for 'APU' is selected.
+17:58:06 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+17:58:06 INFO  : 'configparams force-mem-access 1' command is executed.
+17:58:06 INFO  : Context for 'APU' is selected.
+17:58:06 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+17:58:07 INFO  : 'ps7_init' command is executed.
+17:58:07 INFO  : 'ps7_post_config' command is executed.
+17:58:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:58:07 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:58:07 INFO  : 'configparams force-mem-access 0' command is executed.
+17:58:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:58:07 INFO  : Memory regions updated for context APU
+17:58:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:58:07 INFO  : 'con' command is executed.
+17:58:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:58:07 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+18:04:01 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+18:04:25 INFO  : Disconnected from the channel tcfchan#10.
+18:04:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:04:26 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+18:04:26 INFO  : 'jtag frequency' command is executed.
+18:04:26 INFO  : Context for 'APU' is selected.
+18:04:26 INFO  : System reset is completed.
+18:04:29 INFO  : 'after 3000' command is executed.
+18:04:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+18:04:30 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+18:04:30 INFO  : Context for 'APU' is selected.
+18:04:30 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+18:04:30 INFO  : 'configparams force-mem-access 1' command is executed.
+18:04:31 INFO  : Context for 'APU' is selected.
+18:04:31 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+18:04:31 INFO  : 'ps7_init' command is executed.
+18:04:31 INFO  : 'ps7_post_config' command is executed.
+18:04:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:04:32 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:04:32 INFO  : 'configparams force-mem-access 0' command is executed.
+18:04:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:04:32 INFO  : Memory regions updated for context APU
+18:04:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:04:32 INFO  : 'con' command is executed.
+18:04:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:04:32 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+18:08:48 INFO  : Disconnected from the channel tcfchan#12.
+18:08:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:08:49 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+18:08:49 INFO  : 'jtag frequency' command is executed.
+18:08:49 INFO  : Context for 'APU' is selected.
+18:08:49 INFO  : System reset is completed.
+18:08:52 INFO  : 'after 3000' command is executed.
+18:08:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+18:08:53 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+18:08:53 INFO  : Context for 'APU' is selected.
+18:08:53 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+18:08:53 INFO  : 'configparams force-mem-access 1' command is executed.
+18:08:54 INFO  : Context for 'APU' is selected.
+18:08:54 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+18:08:54 INFO  : 'ps7_init' command is executed.
+18:08:54 INFO  : 'ps7_post_config' command is executed.
+18:08:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:08:54 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:08:55 INFO  : 'configparams force-mem-access 0' command is executed.
+18:08:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:08:55 INFO  : Memory regions updated for context APU
+18:08:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:08:55 INFO  : 'con' command is executed.
+18:08:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:08:55 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+18:18:20 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+18:18:39 INFO  : Disconnected from the channel tcfchan#13.
+18:18:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:18:41 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+18:18:41 INFO  : 'jtag frequency' command is executed.
+18:18:41 INFO  : Context for 'APU' is selected.
+18:18:41 INFO  : System reset is completed.
+18:18:44 INFO  : 'after 3000' command is executed.
+18:18:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+18:18:45 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+18:18:45 INFO  : Context for 'APU' is selected.
+18:18:45 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+18:18:45 INFO  : 'configparams force-mem-access 1' command is executed.
+18:18:45 INFO  : Context for 'APU' is selected.
+18:18:45 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+18:18:46 INFO  : 'ps7_init' command is executed.
+18:18:46 INFO  : 'ps7_post_config' command is executed.
+18:18:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:18:46 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:18:46 INFO  : 'configparams force-mem-access 0' command is executed.
+18:18:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:18:46 INFO  : Memory regions updated for context APU
+18:18:47 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:18:47 INFO  : 'con' command is executed.
+18:18:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:18:47 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+18:24:33 INFO  : Disconnected from the channel tcfchan#15.
+18:24:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:24:34 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+18:24:34 INFO  : 'jtag frequency' command is executed.
+18:24:34 INFO  : Context for 'APU' is selected.
+18:24:34 INFO  : System reset is completed.
+18:24:37 INFO  : 'after 3000' command is executed.
+18:24:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+18:24:38 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+18:24:38 INFO  : Context for 'APU' is selected.
+18:24:38 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+18:24:38 INFO  : 'configparams force-mem-access 1' command is executed.
+18:24:38 INFO  : Context for 'APU' is selected.
+18:24:38 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+18:24:39 INFO  : 'ps7_init' command is executed.
+18:24:39 INFO  : 'ps7_post_config' command is executed.
+18:24:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:24:39 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:24:39 INFO  : 'configparams force-mem-access 0' command is executed.
+18:24:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:24:39 INFO  : Memory regions updated for context APU
+18:24:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:24:40 INFO  : 'con' command is executed.
+18:24:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:24:40 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+18:37:03 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+18:37:50 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+18:38:10 INFO  : Disconnected from the channel tcfchan#16.
+18:38:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:38:11 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+18:38:11 INFO  : 'jtag frequency' command is executed.
+18:38:11 INFO  : Context for 'APU' is selected.
+18:38:11 INFO  : System reset is completed.
+18:38:14 INFO  : 'after 3000' command is executed.
+18:38:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+18:38:16 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+18:38:16 INFO  : Context for 'APU' is selected.
+18:38:16 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+18:38:16 INFO  : 'configparams force-mem-access 1' command is executed.
+18:38:16 INFO  : Context for 'APU' is selected.
+18:38:16 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+18:38:17 INFO  : 'ps7_init' command is executed.
+18:38:17 INFO  : 'ps7_post_config' command is executed.
+18:38:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:38:17 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:38:17 INFO  : 'configparams force-mem-access 0' command is executed.
+18:38:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:38:17 INFO  : Memory regions updated for context APU
+18:38:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:38:17 INFO  : 'con' command is executed.
+18:38:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:38:17 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+18:41:46 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+18:42:04 INFO  : Disconnected from the channel tcfchan#19.
+18:42:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:42:06 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+18:42:06 INFO  : 'jtag frequency' command is executed.
+18:42:06 INFO  : Context for 'APU' is selected.
+18:42:06 INFO  : System reset is completed.
+18:42:09 INFO  : 'after 3000' command is executed.
+18:42:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+18:42:10 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+18:42:10 INFO  : Context for 'APU' is selected.
+18:42:10 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+18:42:10 INFO  : 'configparams force-mem-access 1' command is executed.
+18:42:10 INFO  : Context for 'APU' is selected.
+18:42:10 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+18:42:11 INFO  : 'ps7_init' command is executed.
+18:42:11 INFO  : 'ps7_post_config' command is executed.
+18:42:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:42:11 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:42:11 INFO  : 'configparams force-mem-access 0' command is executed.
+18:42:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:42:11 INFO  : Memory regions updated for context APU
+18:42:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:42:12 INFO  : 'con' command is executed.
+18:42:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:42:12 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+18:45:26 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+18:45:42 INFO  : Disconnected from the channel tcfchan#21.
+18:45:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:45:43 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+18:45:43 INFO  : 'jtag frequency' command is executed.
+18:45:43 INFO  : Context for 'APU' is selected.
+18:45:43 INFO  : System reset is completed.
+18:45:46 INFO  : 'after 3000' command is executed.
+18:45:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+18:45:48 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+18:45:48 INFO  : Context for 'APU' is selected.
+18:45:48 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+18:45:48 INFO  : 'configparams force-mem-access 1' command is executed.
+18:45:48 INFO  : Context for 'APU' is selected.
+18:45:48 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+18:45:48 INFO  : 'ps7_init' command is executed.
+18:45:48 INFO  : 'ps7_post_config' command is executed.
+18:45:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:45:49 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:45:49 INFO  : 'configparams force-mem-access 0' command is executed.
+18:45:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:45:49 INFO  : Memory regions updated for context APU
+18:45:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:45:49 INFO  : 'con' command is executed.
+18:45:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:45:49 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+18:48:43 INFO  : Disconnected from the channel tcfchan#23.
+18:48:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:48:45 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+18:48:45 INFO  : 'jtag frequency' command is executed.
+18:48:45 INFO  : Context for 'APU' is selected.
+18:48:45 INFO  : System reset is completed.
+18:48:48 INFO  : 'after 3000' command is executed.
+18:48:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+18:48:49 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+18:48:49 INFO  : Context for 'APU' is selected.
+18:48:49 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+18:48:49 INFO  : 'configparams force-mem-access 1' command is executed.
+18:48:49 INFO  : Context for 'APU' is selected.
+18:48:49 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+18:48:50 INFO  : 'ps7_init' command is executed.
+18:48:50 INFO  : 'ps7_post_config' command is executed.
+18:48:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:48:50 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:48:50 INFO  : 'configparams force-mem-access 0' command is executed.
+18:48:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:48:51 INFO  : Memory regions updated for context APU
+18:48:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:48:51 INFO  : 'con' command is executed.
+18:48:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:48:51 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+18:51:06 INFO  : Disconnected from the channel tcfchan#24.
+18:51:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:51:08 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+18:51:08 INFO  : 'jtag frequency' command is executed.
+18:51:08 INFO  : Context for 'APU' is selected.
+18:51:08 INFO  : System reset is completed.
+18:51:11 INFO  : 'after 3000' command is executed.
+18:51:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+18:51:12 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+18:51:12 INFO  : Context for 'APU' is selected.
+18:51:12 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+18:51:12 INFO  : 'configparams force-mem-access 1' command is executed.
+18:51:12 INFO  : Context for 'APU' is selected.
+18:51:12 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+18:51:13 INFO  : 'ps7_init' command is executed.
+18:51:13 INFO  : 'ps7_post_config' command is executed.
+18:51:13 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:51:13 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:51:13 INFO  : 'configparams force-mem-access 0' command is executed.
+18:51:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:51:14 INFO  : Memory regions updated for context APU
+18:51:14 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:51:14 INFO  : 'con' command is executed.
+18:51:14 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:51:14 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+18:53:25 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+18:55:16 INFO  : Disconnected from the channel tcfchan#25.
+18:55:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:55:18 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+18:55:18 INFO  : 'jtag frequency' command is executed.
+18:55:18 INFO  : Context for 'APU' is selected.
+18:55:18 INFO  : System reset is completed.
+18:55:21 INFO  : 'after 3000' command is executed.
+18:55:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+18:55:22 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+18:55:22 INFO  : Context for 'APU' is selected.
+18:55:22 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+18:55:22 INFO  : 'configparams force-mem-access 1' command is executed.
+18:55:22 INFO  : Context for 'APU' is selected.
+18:55:22 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+18:55:23 INFO  : 'ps7_init' command is executed.
+18:55:23 INFO  : 'ps7_post_config' command is executed.
+18:55:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:55:24 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:55:24 INFO  : 'configparams force-mem-access 0' command is executed.
+18:55:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:55:24 INFO  : Memory regions updated for context APU
+18:55:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:55:24 INFO  : 'con' command is executed.
+18:55:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:55:24 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+18:57:28 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+18:59:26 INFO  : Disconnected from the channel tcfchan#27.
+18:59:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+18:59:28 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+18:59:28 INFO  : 'jtag frequency' command is executed.
+18:59:28 INFO  : Context for 'APU' is selected.
+18:59:28 INFO  : System reset is completed.
+18:59:31 INFO  : 'after 3000' command is executed.
+18:59:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+18:59:32 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+18:59:32 INFO  : Context for 'APU' is selected.
+18:59:32 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+18:59:32 INFO  : 'configparams force-mem-access 1' command is executed.
+18:59:32 INFO  : Context for 'APU' is selected.
+18:59:33 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+18:59:33 INFO  : 'ps7_init' command is executed.
+18:59:33 INFO  : 'ps7_post_config' command is executed.
+18:59:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:59:34 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:59:34 INFO  : 'configparams force-mem-access 0' command is executed.
+18:59:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:59:34 INFO  : Memory regions updated for context APU
+18:59:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:59:34 INFO  : 'con' command is executed.
+18:59:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:59:34 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+19:01:53 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+19:03:01 INFO  : Disconnected from the channel tcfchan#29.
+19:03:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:03:02 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+19:03:02 INFO  : 'jtag frequency' command is executed.
+19:03:02 INFO  : Context for 'APU' is selected.
+19:03:02 INFO  : System reset is completed.
+19:03:05 INFO  : 'after 3000' command is executed.
+19:03:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+19:03:07 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+19:03:07 INFO  : Context for 'APU' is selected.
+19:03:07 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+19:03:07 INFO  : 'configparams force-mem-access 1' command is executed.
+19:03:07 INFO  : Context for 'APU' is selected.
+19:03:07 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+19:03:07 INFO  : 'ps7_init' command is executed.
+19:03:07 INFO  : 'ps7_post_config' command is executed.
+19:03:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:03:08 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:03:08 INFO  : 'configparams force-mem-access 0' command is executed.
+19:03:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:03:08 INFO  : Memory regions updated for context APU
+19:03:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:03:08 INFO  : 'con' command is executed.
+19:03:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:03:08 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+19:06:48 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+19:07:22 INFO  : Disconnected from the channel tcfchan#31.
+19:07:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:07:23 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+19:07:23 INFO  : 'jtag frequency' command is executed.
+19:07:23 INFO  : Context for 'APU' is selected.
+19:07:24 INFO  : System reset is completed.
+19:07:27 INFO  : 'after 3000' command is executed.
+19:07:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+19:07:28 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+19:07:28 INFO  : Context for 'APU' is selected.
+19:07:28 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+19:07:28 INFO  : 'configparams force-mem-access 1' command is executed.
+19:07:28 INFO  : Context for 'APU' is selected.
+19:07:28 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+19:07:29 INFO  : 'ps7_init' command is executed.
+19:07:29 INFO  : 'ps7_post_config' command is executed.
+19:07:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:07:30 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:07:30 INFO  : 'configparams force-mem-access 0' command is executed.
+19:07:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:07:30 INFO  : Memory regions updated for context APU
+19:07:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:07:30 INFO  : 'con' command is executed.
+19:07:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:07:30 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+19:09:39 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+19:09:57 INFO  : Disconnected from the channel tcfchan#33.
+19:09:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:09:58 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+19:09:58 INFO  : 'jtag frequency' command is executed.
+19:09:58 INFO  : Context for 'APU' is selected.
+19:09:59 INFO  : System reset is completed.
+19:10:02 INFO  : 'after 3000' command is executed.
+19:10:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+19:10:03 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+19:10:03 INFO  : Context for 'APU' is selected.
+19:10:03 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+19:10:03 INFO  : 'configparams force-mem-access 1' command is executed.
+19:10:03 INFO  : Context for 'APU' is selected.
+19:10:03 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+19:10:04 INFO  : 'ps7_init' command is executed.
+19:10:04 INFO  : 'ps7_post_config' command is executed.
+19:10:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:10:04 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:10:04 INFO  : 'configparams force-mem-access 0' command is executed.
+19:10:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:10:04 INFO  : Memory regions updated for context APU
+19:10:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:10:04 INFO  : 'con' command is executed.
+19:10:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:10:04 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+19:12:30 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+19:12:45 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+19:13:04 INFO  : Disconnected from the channel tcfchan#35.
+19:13:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:13:06 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+19:13:06 INFO  : 'jtag frequency' command is executed.
+19:13:06 INFO  : Context for 'APU' is selected.
+19:13:06 INFO  : System reset is completed.
+19:13:09 INFO  : 'after 3000' command is executed.
+19:13:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+19:13:10 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+19:13:10 INFO  : Context for 'APU' is selected.
+19:13:10 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+19:13:10 INFO  : 'configparams force-mem-access 1' command is executed.
+19:13:10 INFO  : Context for 'APU' is selected.
+19:13:10 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+19:13:11 INFO  : 'ps7_init' command is executed.
+19:13:11 INFO  : 'ps7_post_config' command is executed.
+19:13:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:13:11 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:13:12 INFO  : 'configparams force-mem-access 0' command is executed.
+19:13:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:13:12 INFO  : Memory regions updated for context APU
+19:13:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:13:12 INFO  : 'con' command is executed.
+19:13:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:13:12 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+19:16:39 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+19:16:57 INFO  : Disconnected from the channel tcfchan#38.
+19:16:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:16:59 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+19:16:59 INFO  : 'jtag frequency' command is executed.
+19:16:59 INFO  : Context for 'APU' is selected.
+19:16:59 INFO  : System reset is completed.
+19:17:02 INFO  : 'after 3000' command is executed.
+19:17:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+19:17:03 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+19:17:03 INFO  : Context for 'APU' is selected.
+19:17:03 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+19:17:03 INFO  : 'configparams force-mem-access 1' command is executed.
+19:17:03 INFO  : Context for 'APU' is selected.
+19:17:03 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+19:17:04 INFO  : 'ps7_init' command is executed.
+19:17:04 INFO  : 'ps7_post_config' command is executed.
+19:17:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:17:04 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:17:04 INFO  : 'configparams force-mem-access 0' command is executed.
+19:17:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:17:04 INFO  : Memory regions updated for context APU
+19:17:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:17:04 INFO  : 'con' command is executed.
+19:17:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:17:04 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+19:19:13 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+19:20:42 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+19:21:00 INFO  : Disconnected from the channel tcfchan#40.
+19:21:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:21:01 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+19:21:01 INFO  : 'jtag frequency' command is executed.
+19:21:01 INFO  : Context for 'APU' is selected.
+19:21:02 INFO  : System reset is completed.
+19:21:05 INFO  : 'after 3000' command is executed.
+19:21:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+19:21:06 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+19:21:06 INFO  : Context for 'APU' is selected.
+19:21:06 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+19:21:06 INFO  : 'configparams force-mem-access 1' command is executed.
+19:21:06 INFO  : Context for 'APU' is selected.
+19:21:06 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+19:21:07 INFO  : 'ps7_init' command is executed.
+19:21:07 INFO  : 'ps7_post_config' command is executed.
+19:21:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:21:07 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:21:07 INFO  : 'configparams force-mem-access 0' command is executed.
+19:21:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:21:08 INFO  : Memory regions updated for context APU
+19:21:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:21:08 INFO  : 'con' command is executed.
+19:21:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:21:08 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+19:23:33 INFO  : Disconnected from the channel tcfchan#43.
+19:23:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:23:34 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+19:23:34 INFO  : 'jtag frequency' command is executed.
+19:23:34 INFO  : Context for 'APU' is selected.
+19:23:34 INFO  : System reset is completed.
+19:23:37 INFO  : 'after 3000' command is executed.
+19:23:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+19:23:39 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+19:23:39 INFO  : Context for 'APU' is selected.
+19:23:39 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+19:23:39 INFO  : 'configparams force-mem-access 1' command is executed.
+19:23:39 INFO  : Context for 'APU' is selected.
+19:23:39 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+19:23:39 INFO  : 'ps7_init' command is executed.
+19:23:39 INFO  : 'ps7_post_config' command is executed.
+19:23:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:23:40 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:23:40 INFO  : 'configparams force-mem-access 0' command is executed.
+19:23:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:23:40 INFO  : Memory regions updated for context APU
+19:23:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:23:40 INFO  : 'con' command is executed.
+19:23:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:23:40 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+19:25:47 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+19:27:15 INFO  : Disconnected from the channel tcfchan#44.
+19:27:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:27:16 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+19:27:16 INFO  : 'jtag frequency' command is executed.
+19:27:16 INFO  : Context for 'APU' is selected.
+19:27:16 INFO  : System reset is completed.
+19:27:19 INFO  : 'after 3000' command is executed.
+19:27:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+19:27:21 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+19:27:21 INFO  : Context for 'APU' is selected.
+19:27:21 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+19:27:21 INFO  : 'configparams force-mem-access 1' command is executed.
+19:27:21 INFO  : Context for 'APU' is selected.
+19:27:21 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+19:27:21 INFO  : 'ps7_init' command is executed.
+19:27:21 INFO  : 'ps7_post_config' command is executed.
+19:27:21 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:27:22 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:27:22 INFO  : 'configparams force-mem-access 0' command is executed.
+19:27:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:27:22 INFO  : Memory regions updated for context APU
+19:27:22 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:27:22 INFO  : 'con' command is executed.
+19:27:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:27:22 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+19:29:46 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+19:31:24 INFO  : Disconnected from the channel tcfchan#46.
+19:31:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:31:25 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+19:31:25 INFO  : 'jtag frequency' command is executed.
+19:31:25 INFO  : Context for 'APU' is selected.
+19:31:25 INFO  : System reset is completed.
+19:31:28 INFO  : 'after 3000' command is executed.
+19:31:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+19:31:30 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+19:31:30 INFO  : Context for 'APU' is selected.
+19:31:30 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+19:31:30 INFO  : 'configparams force-mem-access 1' command is executed.
+19:31:30 INFO  : Context for 'APU' is selected.
+19:31:30 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+19:31:30 INFO  : 'ps7_init' command is executed.
+19:31:30 INFO  : 'ps7_post_config' command is executed.
+19:31:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:31:31 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:31:31 INFO  : 'configparams force-mem-access 0' command is executed.
+19:31:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:31:31 INFO  : Memory regions updated for context APU
+19:31:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:31:31 INFO  : 'con' command is executed.
+19:31:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:31:31 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+20:04:57 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+20:05:22 INFO  : Disconnected from the channel tcfchan#48.
+20:05:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:05:23 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+20:05:23 INFO  : 'jtag frequency' command is executed.
+20:05:23 INFO  : Context for 'APU' is selected.
+20:05:23 INFO  : System reset is completed.
+20:05:26 INFO  : 'after 3000' command is executed.
+20:05:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+20:05:27 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+20:05:27 INFO  : Context for 'APU' is selected.
+20:05:27 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+20:05:27 INFO  : 'configparams force-mem-access 1' command is executed.
+20:05:28 INFO  : Context for 'APU' is selected.
+20:05:28 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+20:05:28 INFO  : 'ps7_init' command is executed.
+20:05:28 INFO  : 'ps7_post_config' command is executed.
+20:05:28 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:05:28 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:05:28 INFO  : 'configparams force-mem-access 0' command is executed.
+20:05:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:05:28 INFO  : Memory regions updated for context APU
+20:05:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:05:29 INFO  : 'con' command is executed.
+20:05:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:05:29 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+20:07:00 INFO  : Disconnected from the channel tcfchan#50.
+20:07:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:07:01 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+20:07:01 INFO  : 'jtag frequency' command is executed.
+20:07:01 INFO  : Context for 'APU' is selected.
+20:07:01 INFO  : System reset is completed.
+20:07:04 INFO  : 'after 3000' command is executed.
+20:07:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+20:07:06 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+20:07:06 INFO  : Context for 'APU' is selected.
+20:07:06 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+20:07:06 INFO  : 'configparams force-mem-access 1' command is executed.
+20:07:06 INFO  : Context for 'APU' is selected.
+20:07:06 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+20:07:06 INFO  : 'ps7_init' command is executed.
+20:07:06 INFO  : 'ps7_post_config' command is executed.
+20:07:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:07:07 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:07:07 INFO  : 'configparams force-mem-access 0' command is executed.
+20:07:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:07:07 INFO  : Memory regions updated for context APU
+20:07:07 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:07:07 INFO  : 'con' command is executed.
+20:07:07 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:07:07 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+20:07:31 INFO  : Disconnected from the channel tcfchan#51.
+20:07:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:07:32 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+20:07:32 INFO  : 'jtag frequency' command is executed.
+20:07:32 INFO  : Context for 'APU' is selected.
+20:07:32 INFO  : System reset is completed.
+20:07:35 INFO  : 'after 3000' command is executed.
+20:07:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+20:07:36 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+20:07:37 INFO  : Context for 'APU' is selected.
+20:07:37 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+20:07:37 INFO  : 'configparams force-mem-access 1' command is executed.
+20:07:37 INFO  : Context for 'APU' is selected.
+20:07:37 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+20:07:37 INFO  : 'ps7_init' command is executed.
+20:07:37 INFO  : 'ps7_post_config' command is executed.
+20:07:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:07:37 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:07:37 INFO  : 'configparams force-mem-access 0' command is executed.
+20:07:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:07:38 INFO  : Memory regions updated for context APU
+20:07:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:07:38 INFO  : 'con' command is executed.
+20:07:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:07:38 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+20:20:05 INFO  : Disconnected from the channel tcfchan#52.
+20:20:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:20:07 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+20:20:07 INFO  : 'jtag frequency' command is executed.
+20:20:07 INFO  : Context for 'APU' is selected.
+20:20:07 INFO  : System reset is completed.
+20:20:10 INFO  : 'after 3000' command is executed.
+20:20:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+20:20:11 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+20:20:11 INFO  : Context for 'APU' is selected.
+20:20:11 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+20:20:11 INFO  : 'configparams force-mem-access 1' command is executed.
+20:20:11 INFO  : Context for 'APU' is selected.
+20:20:11 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+20:20:12 INFO  : 'ps7_init' command is executed.
+20:20:12 INFO  : 'ps7_post_config' command is executed.
+20:20:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:20:12 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:20:12 INFO  : 'configparams force-mem-access 0' command is executed.
+20:20:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:20:12 INFO  : Memory regions updated for context APU
+20:20:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:20:12 INFO  : 'con' command is executed.
+20:20:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:20:12 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+20:33:51 INFO  : Hardware specification for platform project 'TFM_ZYNQ_4_wrapper' is updated.
+20:41:37 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+20:43:06 INFO  : Checking for BSP changes to sync application flags for project 'software_TFM'...
+20:44:10 INFO  : Disconnected from the channel tcfchan#53.
+20:44:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:44:12 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+20:44:12 INFO  : 'jtag frequency' command is executed.
+20:44:12 INFO  : Context for 'APU' is selected.
+20:44:12 INFO  : System reset is completed.
+20:44:15 INFO  : 'after 3000' command is executed.
+20:44:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+20:44:16 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+20:44:16 INFO  : Context for 'APU' is selected.
+20:44:16 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+20:44:16 INFO  : 'configparams force-mem-access 1' command is executed.
+20:44:16 INFO  : Context for 'APU' is selected.
+20:44:16 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+20:44:17 INFO  : 'ps7_init' command is executed.
+20:44:17 INFO  : 'ps7_post_config' command is executed.
+20:44:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:44:17 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:44:17 INFO  : 'configparams force-mem-access 0' command is executed.
+20:44:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:44:18 INFO  : Memory regions updated for context APU
+20:44:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:44:18 INFO  : 'con' command is executed.
+20:44:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:44:18 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+20:44:42 INFO  : Disconnected from the channel tcfchan#58.
+20:44:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:44:43 INFO  : Jtag cable 'Digilent Zybo Z7 210351B0FE1AA' is selected.
+20:44:43 INFO  : 'jtag frequency' command is executed.
+20:44:43 INFO  : Context for 'APU' is selected.
+20:44:43 INFO  : System reset is completed.
+20:44:46 INFO  : 'after 3000' command is executed.
+20:44:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1' command is executed.
+20:44:48 INFO  : FPGA configured successfully with bitstream "C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit"
+20:44:48 INFO  : Context for 'APU' is selected.
+20:44:48 INFO  : Hardware design information is loaded from 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa'.
+20:44:48 INFO  : 'configparams force-mem-access 1' command is executed.
+20:44:48 INFO  : Context for 'APU' is selected.
+20:44:48 INFO  : Sourcing of 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl' is done.
+20:44:48 INFO  : 'ps7_init' command is executed.
+20:44:48 INFO  : 'ps7_post_config' command is executed.
+20:44:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:44:49 INFO  : The application 'C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf' is downloaded to processor 'ps7_cortexa9_0'.
+20:44:49 INFO  : 'configparams force-mem-access 0' command is executed.
+20:44:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351B0FE1AA" && level==0} -index 1
+fpga -file C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/bitstream/TFM_ZYNQ_4_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/hw/TFM_ZYNQ_4_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/software_TFM/Debug/software_TFM.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+20:44:49 INFO  : Memory regions updated for context APU
+20:44:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+20:44:49 INFO  : 'con' command is executed.
+20:44:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+20:44:49 INFO  : Launch script is exported to file 'C:\Users\victo\Desktop\TFM\Zynq\TFM_ZYNQ_ETHERNET\software_TFM\.sdk\launch_scripts\single_application_debug\debugger_software_tfm-default.tcl'
+20:53:01 INFO  : Disconnected from the channel tcfchan#59.

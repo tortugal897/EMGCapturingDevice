@@ -1,17 +1,9 @@
-18:24:48 **** Incremental Build of configuration Debug for project software_TFM ****
+20:43:06 **** Incremental Build of configuration Debug for project software_TFM ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
 ' '
 make --no-print-directory main-build
-'Building file: ../src/dma_api.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/dma_api.d" -MT"src/dma_api.o" -o "src/dma_api.o" "../src/dma_api.c"
-../src/dma_api.c:16:24: warning: 'GicConfig' defined but not used [-Wunused-variable]
- static XScuGic_Config *GicConfig;
-                        ^~~~~~~~~
-'Finished building: ../src/dma_api.c'
-' '
 'Building file: ../src/main.c'
 'Invoking: ARM v7 gcc compiler'
 arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
@@ -29,9 +21,9 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size software_TFM.elf  |tee "software_TFM.elf.size"
    text	   data	    bss	    dec	    hex	filename
- 148424	  13464	5364000	5525888	 545180	software_TFM.elf
+ 147520	  13464	5364000	5524984	 544df8	software_TFM.elf
 'Finished building: software_TFM.elf.size'
 ' '
 
-18:24:51 Build Finished (took 2s.381ms)
+20:43:09 Build Finished (took 2s.926ms)
 

@@ -55,9 +55,13 @@ extern int iniciado;
 
 unsigned int Statusword;
 
+int sincronizado = 0;
+int columiniant = 0;
+
 //err_t transfer_data(unsigned int data1);
-err_t transfer_data1(float data2, float data3, float data4, float data5);
-err_t transfer_data2(float data6, float data7, float data8, float data9);
+//err_t transfer_data1(float data2, float data3, float data4, float data5);
+//err_t transfer_data2(float data6, float data7, float data8, float data9);
+err_t transfer_data3(unsigned int data1, float data2, float data3, float data4, float data5, float data6, float data7, float data8, float data9);
 
 //unsigned int tiempodato = 0;
 
@@ -186,19 +190,30 @@ int main(void)
 	enable_ethernet();
 
 	DMAConfig();
-
-	while (Xil_In32(OFFSET_MEM_WRITE +4*(columini)) != 0xFFC00000){
-		columini++;
-		contadornueve++;
-		if (contadornueve == 9) {
-			contadornueve = 0;
-			filascont++;
+	while (sincronizado <= 10){
+		while (Xil_In32(OFFSET_MEM_WRITE +4*(columini)) != 0xFFC00000){
+			columini++;
+			contadornueve++;
+			if (contadornueve == 9) {
+				contadornueve = 0;
+				filascont++;
+			}
 		}
+
+		if (columiniant == columini-9) {
+			sincronizado++;
+		}
+		else {
+			sincronizado=0;
+		}
+
+		columiniant = columini;
+		columini++;
 	}
 
-	columini = columini - (filascont*9);
+//	columini = columini - (filascont*9);
 
-	inicio = columini;
+	inicio = columini-1;
 	fin = fin + inicio;
 
 	iniciado = 1;
@@ -251,10 +266,11 @@ int main(void)
 					float PhysicalCanal7 = (2.4*(float)(Canal7)) /(6*((1<<23)-1)); // Canal 7
 					float PhysicalCanal8 = (2.4*(float)(Canal8)) /(6*((1<<23)-1)); // Canal 8
 
-					transfer_data(Statusword, PhysicalCanal1, PhysicalCanal1, PhysicalCanal1); // Solo se usa la primera. PD: VITIS ES MIERDA
-					transfer_data1(PhysicalCanal1, PhysicalCanal2, PhysicalCanal3, PhysicalCanal4);
-					transfer_data2(PhysicalCanal5, PhysicalCanal6, PhysicalCanal7, PhysicalCanal8);
+//					transfer_data(Statusword, PhysicalCanal1, PhysicalCanal1, PhysicalCanal1); // Solo se usa la primera. PD: VITIS ES MIERDA
+//					transfer_data1(PhysicalCanal1, PhysicalCanal2, PhysicalCanal3, PhysicalCanal4);
+//					transfer_data2(PhysicalCanal5, PhysicalCanal6, PhysicalCanal7, PhysicalCanal8);
 
+					transfer_data3(Statusword, PhysicalCanal1, PhysicalCanal2, PhysicalCanal3, PhysicalCanal4, PhysicalCanal5, PhysicalCanal6, PhysicalCanal7, PhysicalCanal8); // Solo se usa la primera. PD: VITIS ES MIERDA
 
 					i = i+8;
 				}
@@ -265,9 +281,9 @@ int main(void)
 					// When the end of the memory assign to the DMA is reached.
 					fin = columini; // The reading cursor is reset.
 
-					Statusword = Xil_In32(OFFSET_MEM_WRITE +4*(FRAME_COUNT_MAX*NUM_OF_WORDS)); // Canal 0 // .4f
-
-					transfer_data(Statusword, columini, columini, columini);
+//					Statusword = Xil_In32(OFFSET_MEM_WRITE +4*(FRAME_COUNT_MAX*NUM_OF_WORDS)); // Canal 0 // .4f
+//
+//					transfer_data(Statusword, columini, columini, columini);
 
 				}
 

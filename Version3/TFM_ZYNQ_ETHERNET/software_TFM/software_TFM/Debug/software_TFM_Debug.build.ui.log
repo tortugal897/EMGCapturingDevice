@@ -1,17 +1,9 @@
-2024-02-23T18:24:48.701500500255-18:24:48 **** Incremental Build of configuration Debug for project software_TFM ****
+2024-02-25T20:43:06.891954900255-20:43:06 **** Incremental Build of configuration Debug for project software_TFM ****
 000-make all 
 000-make --no-print-directory pre-build
 000-a9-linaro-pre-build-step
 000-' '
 000-make --no-print-directory main-build
-000-'Building file: ../src/dma_api.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/dma_api.d" -MT"src/dma_api.o" -o "src/dma_api.o" "../src/dma_api.c"
-000/software_TFM/src/dma_api.c16-1-1'GicConfig' defined but not used [-Wunused-variable]1GicConfig../src/dma_api.c:16:24: warning: 'GicConfig' defined but not used [-Wunused-variable]
-000- static XScuGic_Config *GicConfig;
-000-                        ^~~~~~~~~
-000-'Finished building: ../src/dma_api.c'
-000-' '
 000-'Building file: ../src/main.c'
 000-'Invoking: ARM v7 gcc compiler'
 000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/TFM_ZYNQ_4_wrapper/export/TFM_ZYNQ_4_wrapper/sw/TFM_ZYNQ_4_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
@@ -29,9 +21,9 @@
 000-'Invoking: ARM v7 Print Size'
 000-arm-none-eabi-size software_TFM.elf  |tee "software_TFM.elf.size"
 000-   text	   data	    bss	    dec	    hex	filename
-000- 148424	  13464	5364000	5525888	 545180	software_TFM.elf
+000- 147520	  13464	5364000	5524984	 544df8	software_TFM.elf
 000-'Finished building: software_TFM.elf.size'
 000-' '
 00255-
-18:24:51 Build Finished (took 2s.381ms)
+20:43:09 Build Finished (took 2s.926ms)
 

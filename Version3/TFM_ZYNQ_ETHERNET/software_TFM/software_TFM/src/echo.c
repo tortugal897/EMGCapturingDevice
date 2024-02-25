@@ -43,88 +43,125 @@ int transmision = 0;
 
 extern struct netif *echo_netif;
 
-err_t transfer_data(unsigned int data1) {
-//	if (pcb == NULL) {
-//		xil_printf("TCP connection not established\n\r");
-//		return ERR_CONN;
-//	}
-
-	char buffer[21];  // Adjusta a tamaño real
-
-	sprintf(buffer, "%x\t", data1); // Antes tenía \n\r, pero era contraproducente para capturar.
-
-	xemacif_input(echo_netif);
-	while (pcb == NULL || pcb->state != ESTABLISHED){
-	}
-
-	if (pcb == NULL || pcb->state != ESTABLISHED) {
-		xil_printf("TCP connection not established\n\r");
-		return ERR_CONN;
-	}
-
-	err = tcp_write(pcb, &buffer, strlen(buffer), TCP_WRITE_FLAG_COPY);
-	if (err != ERR_OK) {
-		xil_printf("Error writing to TCP connection: %d\n\r", err);
-		return err;
-	}
-
-	err = tcp_output(pcb);
-	if (err != ERR_OK) {
-		xil_printf("Error sending TCP output: %d\n\r", err);
-		return err;
-	}
-
+//err_t transfer_data(unsigned int data1) {
+////	if (pcb == NULL) {
+////		xil_printf("TCP connection not established\n\r");
+////		return ERR_CONN;
+////	}
 //
-	return ERR_OK;
-//	return 0;
-}
-
-err_t transfer_data1(float data2, float data3, float data4, float data5) {
-//	if (pcb == NULL) {
-//		xil_printf("TCP connection not established\n\r");
-//		return ERR_CONN;
-//	}
-
-	char buffer[57];  // Adjusta a tamaño real
-
-	sprintf(buffer, "%.08f\t%.08f\t%.08f\t%.08f\t", data2, data3, data4, data5); // Antes tenía \n\r, pero era contraproducente para capturar.
-
-	xemacif_input(echo_netif);
-
-	while (pcb == NULL || pcb->state != ESTABLISHED){
-	}
-
-	if (pcb == NULL || pcb->state != ESTABLISHED) {
-		xil_printf("TCP connection not established\n\r");
-		return ERR_CONN;
-	}
-
-	err = tcp_write(pcb, &buffer, strlen(buffer), TCP_WRITE_FLAG_COPY);
-	if (err != ERR_OK) {
-		xil_printf("Error writing to TCP connection: %d\n\r", err);
-		return err;
-	}
-
-	err = tcp_output(pcb);
-	if (err != ERR_OK) {
-		xil_printf("Error sending TCP output: %d\n\r", err);
-		return err;
-	}
-
+//	char buffer[21];  // Adjusta a tamaño real
 //
-	return ERR_OK;
-//	return 0;
-}
+//	sprintf(buffer, "%x\t", data1); // Antes tenía \n\r, pero era contraproducente para capturar.
+//
+//	xemacif_input(echo_netif);
+//	while (pcb == NULL || pcb->state != ESTABLISHED){
+//	}
+//
+//	if (pcb == NULL || pcb->state != ESTABLISHED) {
+//		xil_printf("TCP connection not established\n\r");
+//		return ERR_CONN;
+//	}
+//
+//	err = tcp_write(pcb, &buffer, strlen(buffer), TCP_WRITE_FLAG_COPY);
+//	if (err != ERR_OK) {
+//		xil_printf("Error writing to TCP connection: %d\n\r", err);
+//		return err;
+//	}
+//
+//	err = tcp_output(pcb);
+//	if (err != ERR_OK) {
+//		xil_printf("Error sending TCP output: %d\n\r", err);
+//		return err;
+//	}
+//
+////
+//	return ERR_OK;
+////	return 0;
+//}
+//
+//err_t transfer_data1(float data2, float data3, float data4, float data5) {
+////	if (pcb == NULL) {
+////		xil_printf("TCP connection not established\n\r");
+////		return ERR_CONN;
+////	}
+//
+//	char buffer[57];  // Adjusta a tamaño real
+//
+//	sprintf(buffer, "%.08f\t%.08f\t%.08f\t%.08f\t", data2, data3, data4, data5); // Antes tenía \n\r, pero era contraproducente para capturar.
+//
+//	xemacif_input(echo_netif);
+//
+//	while (pcb == NULL || pcb->state != ESTABLISHED){
+//	}
+//
+//	if (pcb == NULL || pcb->state != ESTABLISHED) {
+//		xil_printf("TCP connection not established\n\r");
+//		return ERR_CONN;
+//	}
+//
+//	err = tcp_write(pcb, &buffer, strlen(buffer), TCP_WRITE_FLAG_COPY);
+//	if (err != ERR_OK) {
+//		xil_printf("Error writing to TCP connection: %d\n\r", err);
+//		return err;
+//	}
+//
+//	err = tcp_output(pcb);
+//	if (err != ERR_OK) {
+//		xil_printf("Error sending TCP output: %d\n\r", err);
+//		return err;
+//	}
+//
+////
+//	return ERR_OK;
+////	return 0;
+//}
+//
+//err_t transfer_data2(float data6, float data7, float data8, float data9) {
+////	if (pcb == NULL) {
+////		xil_printf("TCP connection not established\n\r");
+////		return ERR_CONN;
+////	}
+//
+//	char buffer[48];  // Adjusta a tamaño real
+//
+//	sprintf(buffer, "%.08f\t%.08f\t%.08f\t%.08f\r", data6, data7, data8, data9); // Antes tenía \n\r, pero era contraproducente para capturar.
+//
+//	xemacif_input(echo_netif);
+//
+//	while (pcb == NULL || pcb->state != ESTABLISHED){
+//	}
+//
+//	if (pcb == NULL || pcb->state != ESTABLISHED) {
+//		xil_printf("TCP connection not established\n\r");
+//		return ERR_CONN;
+//	}
+//
+//	err = tcp_write(pcb, &buffer, strlen(buffer), TCP_WRITE_FLAG_COPY);
+//	if (err != ERR_OK) {
+//		xil_printf("Error writing to TCP connection: %d\n\r", err);
+//		return err;
+//	}
+//
+//	err = tcp_output(pcb);
+//	if (err != ERR_OK) {
+//		xil_printf("Error sending TCP output: %d\n\r", err);
+//		return err;
+//	}
+//
+////
+//	return ERR_OK;
+////	return 0;
+//}
 
-err_t transfer_data2(float data6, float data7, float data8, float data9) {
+err_t transfer_data3(unsigned int data1, float data2, float data3, float data4, float data5, float data6, float data7, float data8, float data9) {
 //	if (pcb == NULL) {
 //		xil_printf("TCP connection not established\n\r");
 //		return ERR_CONN;
 //	}
 
-	char buffer[48];  // Adjusta a tamaño real
+	char buffer[126];  // Adjusta a tamaño real
 
-	sprintf(buffer, "%.08f\t%.08f\t%.08f\t%.08f\r", data6, data7, data8, data9); // Antes tenía \n\r, pero era contraproducente para capturar.
+	sprintf(buffer, "%x\t%.08f\t%.08f\t%.08f\t%.08f\t%.08f\t%.08f\t%.08f\t%.08f\r", data1, data2, data3, data4, data5, data6, data7, data8, data9); // Antes tenía \n\r, pero era contraproducente para capturar.
 
 	xemacif_input(echo_netif);
 
