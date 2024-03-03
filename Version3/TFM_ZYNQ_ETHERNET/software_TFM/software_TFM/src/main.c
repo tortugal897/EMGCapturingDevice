@@ -58,6 +58,8 @@ unsigned int Statusword;
 int sincronizado = 0;
 int columiniant = 0;
 
+int ganancia = 12;
+
 //err_t transfer_data(unsigned int data1);
 //err_t transfer_data1(float data2, float data3, float data4, float data5);
 //err_t transfer_data2(float data6, float data7, float data8, float data9);
@@ -161,7 +163,7 @@ int main(void)
 
 	// xil_printf("[INFO] Channel 3: power-down and its inputs shorted (as Texas Instruments recommends).\r\n");
 	xil_printf("[INFO] Channel 3: gain 1 and test signal as input.\r\n");
-	ADS_enableChannelAndSetGain(3, CHNSET_GAIN_6X, CHNSET_ELECTRODE_INPUT); //CHNSET_TEST_SIGNAL
+	ADS_enableChannelAndSetGain(3, CHNSET_GAIN_12X, CHNSET_ELECTRODE_INPUT); //CHNSET_TEST_SIGNAL
 	// ADS_disableChannel(3);
 
 	xil_printf("[INFO] Channel 4 to 8 channel: set gain 1 and test signal as input.\r\n");
@@ -190,6 +192,9 @@ int main(void)
 	enable_ethernet();
 
 	DMAConfig();
+
+	xil_printf("[INFO] Waiting for synchronization.\r\n");
+
 	while (sincronizado <= 10){
 		while (Xil_In32(OFFSET_MEM_WRITE +4*(columini)) != 0xFFC00000){
 			columini++;
@@ -217,6 +222,8 @@ int main(void)
 	fin = fin + inicio;
 
 	iniciado = 1;
+
+	xil_printf("[INFO] Synchronization complete.\r\n");
 
 	while(1){
 
@@ -257,14 +264,14 @@ int main(void)
 					int Canal8 = complementoADosADecimal(Xil_In32(OFFSET_MEM_WRITE +4*(i+8)), 0x20);
 
 					Statusword = Xil_In32(OFFSET_MEM_WRITE +4*(i)); // Canal 0 // .4f
-					float PhysicalCanal1 = (2.4*(float)(Canal1)) /(6*((1<<23)-1)); // Canal 1
-					float PhysicalCanal2 = (2.4*(float)(Canal2)) /(6*((1<<23)-1)); // Canal 2
-					float PhysicalCanal3 = (2.4*(float)(Canal3)) /(6*((1<<23)-1)); // Canal 3
-					float PhysicalCanal4 = (2.4*(float)(Canal4)) /(6*((1<<23)-1)); // Canal 4
-					float PhysicalCanal5 = (2.4*(float)(Canal5)) /(6*((1<<23)-1)); // Canal 5
-					float PhysicalCanal6 = (2.4*(float)(Canal6)) /(6*((1<<23)-1)); // Canal 6
-					float PhysicalCanal7 = (2.4*(float)(Canal7)) /(6*((1<<23)-1)); // Canal 7
-					float PhysicalCanal8 = (2.4*(float)(Canal8)) /(6*((1<<23)-1)); // Canal 8
+					float PhysicalCanal1 = (2.4*(float)(Canal1)) /(ganancia*((1<<23)-1)); // Canal 1
+					float PhysicalCanal2 = (2.4*(float)(Canal2)) /(ganancia*((1<<23)-1)); // Canal 2
+					float PhysicalCanal3 = (2.4*(float)(Canal3)) /(ganancia*((1<<23)-1)); // Canal 3
+					float PhysicalCanal4 = (2.4*(float)(Canal4)) /(ganancia*((1<<23)-1)); // Canal 4
+					float PhysicalCanal5 = (2.4*(float)(Canal5)) /(ganancia*((1<<23)-1)); // Canal 5
+					float PhysicalCanal6 = (2.4*(float)(Canal6)) /(ganancia*((1<<23)-1)); // Canal 6
+					float PhysicalCanal7 = (2.4*(float)(Canal7)) /(ganancia*((1<<23)-1)); // Canal 7
+					float PhysicalCanal8 = (2.4*(float)(Canal8)) /(ganancia*((1<<23)-1)); // Canal 8
 
 //					transfer_data(Statusword, PhysicalCanal1, PhysicalCanal1, PhysicalCanal1); // Solo se usa la primera. PD: VITIS ES MIERDA
 //					transfer_data1(PhysicalCanal1, PhysicalCanal2, PhysicalCanal3, PhysicalCanal4);

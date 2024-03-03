@@ -1,4 +1,4 @@
-2024-02-25T20:43:06.891954900255-20:43:06 **** Incremental Build of configuration Debug for project software_TFM ****
+2024-03-03T18:28:52.876150200255-18:28:52 **** Incremental Build of configuration Debug for project software_TFM ****
 000-make all 
 000-make --no-print-directory pre-build
 000-a9-linaro-pre-build-step
@@ -21,9 +21,9 @@
 000-'Invoking: ARM v7 Print Size'
 000-arm-none-eabi-size software_TFM.elf  |tee "software_TFM.elf.size"
 000-   text	   data	    bss	    dec	    hex	filename
-000- 147520	  13464	5364000	5524984	 544df8	software_TFM.elf
+000- 147848	  13472	5364000	5525320	 544f48	software_TFM.elf
 000-'Finished building: software_TFM.elf.size'
 000-' '
 00255-
-20:43:09 Build Finished (took 2s.926ms)
+18:28:55 Build Finished (took 3s.43ms)
 
