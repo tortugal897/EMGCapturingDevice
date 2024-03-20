@@ -37,7 +37,7 @@
     <stringAttribute key="com.xilinx.sdx.sdsoc.debug.ui.hw_spec.path" value="${sdxTcfLaunchFile:project=software_TFM;fileType=hw;}"/>
     <stringAttribute key="com.xilinx.sdx.sdsoc.debug.ui.ingore.peer.conflict" value="false"/>
     <stringAttribute key="com.xilinx.sdx.sdsoc.debug.ui.performance.analysis" value="false"/>
-    <stringAttribute key="com.xilinx.sdx.sdsoc.debug.ui.performance.analysis.linux.hw.target" value=""/>
+    <stringAttribute key="com.xilinx.sdx.sdsoc.debug.ui.performance.analysis.linux.hw.target" value="Local"/>
     <stringAttribute key="com.xilinx.sdx.sdsoc.debug.ui.sdsoc.project" value="software_TFM"/>
     <stringAttribute key="com.xilinx.sdx.sdsoc.debug.ui.trace" value="false"/>
     <stringAttribute key="com.xilinx.sdx.sdsoc.debug.ui.versal.system.emulation" value="false"/>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# 
+# Start of session at: Mon Mar 11 16:28:29 2024
+# Process ID: 7664
+# Current directory: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/webtalk
+# Command line: wbtcv.exe -mode batch -source vitis_webtalk.tcl
+# Log file: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/webtalk/webtalk.log
+# Journal file: C:/Users/victo/Desktop/TFM/Zynq/TFM_ZYNQ_ETHERNET/software_TFM/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source vitis_webtalk.tcl

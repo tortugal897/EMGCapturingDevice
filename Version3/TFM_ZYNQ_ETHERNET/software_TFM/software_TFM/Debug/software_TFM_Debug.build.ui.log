@@ -1,4 +1,4 @@
-2024-03-03T18:28:52.876150200255-18:28:52 **** Incremental Build of configuration Debug for project software_TFM ****
+2024-03-20T19:56:17.031298300255-19:56:17 **** Incremental Build of configuration Debug for project software_TFM ****
 000-make all 
 000-make --no-print-directory pre-build
 000-a9-linaro-pre-build-step
@@ -25,5 +25,5 @@
 000-'Finished building: software_TFM.elf.size'
 000-' '
 00255-
-18:28:55 Build Finished (took 3s.43ms)
+19:56:22 Build Finished (took 5s.875ms)
 

@@ -1,4 +1,4 @@
-18:28:52 **** Incremental Build of configuration Debug for project software_TFM ****
+19:56:17 **** Incremental Build of configuration Debug for project software_TFM ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -25,5 +25,5 @@ arm-none-eabi-size software_TFM.elf  |tee "software_TFM.elf.size"
 'Finished building: software_TFM.elf.size'
 ' '
 
-18:28:55 Build Finished (took 3s.43ms)
+19:56:22 Build Finished (took 5s.875ms)
 
